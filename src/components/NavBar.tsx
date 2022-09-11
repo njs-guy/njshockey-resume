@@ -1,26 +1,20 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 interface NavBarProps {
     active: number,
 }
 
-const NavBar = ({active}: NavBarProps) => {
+const NavBar = () => {
     return (
         <ul className="menu menu-horizontal bg-base-200 rounded-box grow-0 object-center self-center">
             <li>
-                <Link to="/" className={active === 0 ? 'active': ''}>
-                    About
-                </Link>
+                <NavLink to="/">Home</NavLink>
             </li>
             <li>
-                <Link to="/portfolio" className={active === 1 ? 'active': ''}>
-                    Portfolio
-                </Link>
+                <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
-                <Link to="/resume" className={active === 2 ? 'active': ''}>
-                    Résumé
-                </Link>
+                <NavLink to="/resume">Résumé</NavLink>
             </li>
         </ul>
     )

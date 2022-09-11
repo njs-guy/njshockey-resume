@@ -1,20 +1,26 @@
-import { useState } from 'react';
-// import { Link } from 'react-router-dom';
-
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
 import NavBar from './components/NavBar';
-import Panel from './components/Panel';
+import PageNotFound from './routes/PageNotFound';
+import Portfolio from './routes/Portfolio';
+import Resume from './routes/Resume';
 
 function App() {
   return (
-    <div className="App m-5">
-      <div className="flex flex-col space-y-4">
-          <NavBar active={0} />
-          <Panel text="
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non enim lacus. Morbi at vestibulum odio. Ut scelerisque magna sed mauris feugiat, et ornare sapien mollis. Nunc a tellus in odio tempus rhoncus. Curabitur sed neque quis orci facilisis condimentum et sed magna. Phasellus posuere tempus imperdiet. Nulla facilisi.
-          " />
-          <button type="button" className="btn btn-primary">Wow</button>
+    <main>
+      <div className="m-4">
+        <div className="App flex flex-col space-y-4 max-w-4xl">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          {/* No match or 404 error */}
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+        </div>
       </div>
-    </div>
+    </main>
   )
 }
 
