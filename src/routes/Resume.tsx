@@ -1,6 +1,8 @@
+import NavBar from '../components/NavBar';
+
 const Resume = () => {
     return (
-        <h1>Résumé</h1>
+        <NavBar active={2} />
     )
 }
 

@@ -13,8 +13,8 @@ render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} /> 
-      <Route path="portfolio" element={<Portfolio />} /> 
-      <Route path="resume" element={<Resume />} /> 
+      <Route path="/portfolio" element={<Portfolio />} /> 
+      <Route path="/resume" element={<Resume />} /> 
     </Routes>
   </BrowserRouter>,
   rootElement

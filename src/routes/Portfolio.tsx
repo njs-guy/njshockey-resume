@@ -1,6 +1,8 @@
+import NavBar from '../components/NavBar';
+
 const Portfolio = () => {
     return (
-        <h1>Portfolio</h1>
+        <NavBar active={1} />
     )
 }
 
