@@ -1,4 +1,3 @@
-import NavBar from './NavBar';
 import Panel from './Panel';
 
 const Home = () => {

@@ -1,7 +1,7 @@
-// import { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import PageNotFound from './routes/PageNotFound';
 import Portfolio from './routes/Portfolio';
 import Resume from './routes/Resume';
 
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
-        {/* <Route component={404} /> */}
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       </div>
     </main>
