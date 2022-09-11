@@ -8,15 +8,17 @@ import Resume from './routes/Resume';
 function App() {
   return (
     <main>
-      <div className="App m-5 flex flex-col space-y-4">
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Resume />} />
-        {/* No match or 404 error */}
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
+      <div className="m-4">
+        <div className="App flex flex-col space-y-4 max-w-4xl">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          {/* No match or 404 error */}
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+        </div>
       </div>
     </main>
   )
