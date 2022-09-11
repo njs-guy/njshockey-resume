@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <button className="btn btn-primary">Wow</button>
+      <Link to="/Page1">Page 1</Link> |{" "}
+      <Link to="/Page2">Page 2</Link>
     </div>
   )
 }
