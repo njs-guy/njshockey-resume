@@ -9,11 +9,12 @@ function App() {
   return (
     <main>
       <div className="App m-5 flex flex-col space-y-4">
-      <NavBar active={0} />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
+        {/* No match or 404 error */}
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       </div>
