@@ -8,6 +8,7 @@ import Resume from "./routes/Resume";
 import './index.css';
 
 const rootElement = document.getElementById("root");
+// Change from render
 render(
   <BrowserRouter>
     <Routes>
