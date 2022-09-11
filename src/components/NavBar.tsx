@@ -9,7 +9,7 @@ const NavBar = ({active}: NavBarProps) => {
         <ul className="menu menu-horizontal bg-base-200 rounded-box grow-0 object-center self-center">
             <li>
                 <Link to="/" className={active === 0 ? 'active': ''}>
-                    About
+                    Home
                 </Link>
             </li>
             <li>

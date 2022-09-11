@@ -1,20 +1,23 @@
-import { useState } from 'react';
-// import { Link } from 'react-router-dom';
-
+// import { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
 import NavBar from './components/NavBar';
-import Panel from './components/Panel';
+import Portfolio from './routes/Portfolio';
+import Resume from './routes/Resume';
 
 function App() {
   return (
-    <div className="App m-5">
-      <div className="flex flex-col space-y-4">
-          <NavBar active={0} />
-          <Panel text="
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non enim lacus. Morbi at vestibulum odio. Ut scelerisque magna sed mauris feugiat, et ornare sapien mollis. Nunc a tellus in odio tempus rhoncus. Curabitur sed neque quis orci facilisis condimentum et sed magna. Phasellus posuere tempus imperdiet. Nulla facilisi.
-          " />
-          <button type="button" className="btn btn-primary">Wow</button>
+    <main>
+      <div className="App m-5 flex flex-col space-y-4">
+      <NavBar active={0} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
+        {/* <Route component={404} /> */}
+      </Routes>
       </div>
-    </div>
+    </main>
   )
 }
 
