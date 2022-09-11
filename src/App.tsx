@@ -1,16 +1,14 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+
 import Panel from './components/Panel';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App m-5">
-      <div className="flex flex-col gap-4">
-          <ul className="menu menu-horizontal bg-base-200 rounded-box grow-0 object-center self-center">
-            <li><Link to="/">About</Link></li>
-            <li><Link to="portfolio">Portfolio</Link></li>
-            <li><Link to="resume">Résumé</Link></li>
-          </ul>
+      <div className="flex flex-col space-y-4">
+          <NavBar />
           <Panel />
           <button type='button' className="btn btn-primary">Wow</button>
       </div>
