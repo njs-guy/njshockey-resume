@@ -15,3 +15,7 @@
 .panelContainer {
     @apply flex flex-col space-y-4;
 }
+
+.skIcoDark {
+    filter: invert(94%) sepia(8%) saturate(45%) hue-rotate(197deg) brightness(98%) contrast(90%);
+}
