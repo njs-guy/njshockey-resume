@@ -11,8 +11,8 @@ const Home = () => {
                 <button type="button" className="btn btn-primary">Wow</button>
                 <div className="panel">
                     <SkillIcon src="../src/assets/github.svg" alt="GitHub" />
-                    <SkillIcon src="../src/assets/gitlab.svg" alt="GitHub" />
-                    <SkillIcon src="../src/assets/git.svg" alt="GitHub" />
+                    <SkillIcon src="../src/assets/gitlab.svg" alt="GitLab" />
+                    <SkillIcon src="../src/assets/git.svg" alt="Git" />
                 </div>
             </div>
         </span>
