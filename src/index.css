@@ -7,3 +7,11 @@
     -moz-osx-font-smoothing: grayscale;
     margin: 0 auto;
 }
+
+.panel {
+    @apply card card-body bg-base-200 p-5;
+}
+
+.panelContainer {
+    @apply flex flex-col space-y-4;
+}

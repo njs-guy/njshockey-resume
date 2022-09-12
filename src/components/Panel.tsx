@@ -4,7 +4,7 @@ interface PanelProps {
 
 const Panel = ({text}: PanelProps) => {
     return (
-        <div className="card card-body bg-base-200 p-5">
+        <div className="panel">
             <p>{text}</p>
         </div>
     )

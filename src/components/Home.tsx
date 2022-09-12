@@ -1,13 +1,21 @@
 import Panel from './Panel';
+import SkillIcon from './SkillIcon';
 
 const Home = () => {
     return (
-        <div className="flex flex-col space-y-4">
-            <Panel text="
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non enim lacus. Morbi at vestibulum odio. Ut scelerisque magna sed mauris feugiat, et ornare sapien mollis. Nunc a tellus in odio tempus rhoncus. Curabitur sed neque quis orci facilisis condimentum et sed magna. Phasellus posuere tempus imperdiet. Nulla facilisi.
-            " />
-            <button type="button" className="btn btn-primary">Wow</button>
-        </div>
+        <span>
+            <div className="panelContainer">
+                <Panel text="
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non enim lacus. Morbi at vestibulum odio. Ut scelerisque magna sed mauris feugiat, et ornare sapien mollis. Nunc a tellus in odio tempus rhoncus. Curabitur sed neque quis orci facilisis condimentum et sed magna. Phasellus posuere tempus imperdiet. Nulla facilisi.
+                " />
+                <button type="button" className="btn btn-primary">Wow</button>
+                <div className="panel">
+                    <SkillIcon src="../src/assets/github.svg" alt="GitHub" />
+                    <SkillIcon src="../src/assets/gitlab.svg" alt="GitHub" />
+                    <SkillIcon src="../src/assets/git.svg" alt="GitHub" />
+                </div>
+            </div>
+        </span>
     )
 }
 

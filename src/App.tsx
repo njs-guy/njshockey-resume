@@ -9,7 +9,7 @@ function App() {
   return (
     <main>
       <div className="m-4">
-        <div className="App flex flex-col space-y-4 max-w-4xl">
+        <div className="App panelContainer max-w-4xl">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
