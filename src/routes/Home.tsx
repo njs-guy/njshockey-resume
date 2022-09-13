@@ -1,5 +1,5 @@
+import IconGrid from '../components/IconGrid';
 import Panel from '../components/Panel';
-import SkillIcon from '../components/SkillIcon';
 
 const Home = () => {
     return (
@@ -10,9 +10,7 @@ const Home = () => {
                 " />
                 <button type="button" className="btn btn-primary">Wow</button>
                 <div className="panel">
-                    <SkillIcon src="../src/assets/github.svg" alt="GitHub" />
-                    <SkillIcon src="../src/assets/gitlab.svg" alt="GitLab" />
-                    <SkillIcon src="../src/assets/git.svg" alt="Git" />
+                    <IconGrid />
                 </div>
             </div>
         </span>
