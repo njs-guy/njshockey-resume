@@ -5,7 +5,7 @@ interface SkillIconProps {
 
 const SkillIcon = ({ src, alt }:SkillIconProps) => {
     return(
-        <img src={src} alt={alt} className="skIcoDark h-16" />
+        <img src={src} alt={alt} title={alt} className="skIcoDark h-16" />
     )
 }
 
