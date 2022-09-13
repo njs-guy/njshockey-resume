@@ -1,5 +1,5 @@
-import Panel from './Panel';
-import SkillIcon from './SkillIcon';
+import Panel from '../components/Panel';
+import SkillIcon from '../components/SkillIcon';
 
 const Home = () => {
     return (
