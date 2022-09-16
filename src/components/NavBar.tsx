@@ -6,7 +6,7 @@ interface NavBarProps {
 
 const NavBar = () => {
     return (
-        <ul className="menu menu-horizontal bg-base-200 rounded-box grow-0 object-center self-center">
+        <ul className="menu menu-horizontal bg-base-200 rounded-box object-center self-center justify-self-start">
             <li>
                 <NavLink to="/">Home</NavLink>
             </li>

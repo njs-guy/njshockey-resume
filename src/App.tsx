@@ -4,13 +4,17 @@ import NavBar from './components/NavBar';
 import PageNotFound from './routes/PageNotFound';
 import Portfolio from './routes/Portfolio';
 import Resume from './routes/Resume';
+import ThemeSwitcher from './components/ThemeSwitcher';
 
 function App() {
   return (
     <main>
       <div className="m-4">
         <div className="App panelContainer max-w-4xl">
-        <NavBar />
+          <div className="flex-row grid grid-cols-2">
+            <NavBar />
+            <ThemeSwitcher />
+          </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
