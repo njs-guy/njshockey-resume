@@ -36,5 +36,6 @@ module.exports = {
         }
       },
     ],
+    darkTheme: "dark",
   }
 }

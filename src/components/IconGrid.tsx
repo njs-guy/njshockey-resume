@@ -15,7 +15,6 @@ const IconGrid = () => {
             </div>
             <h2 className="prose-xl">Very familiar</h2>
             <div className="flex flex-row gap-4 flex-wrap">
-                
                 <SkillIcon src="../src/assets/react-fa.svg" alt="React" />
                 <p>C#</p>
                 <SkillIcon src="../src/assets/markdown.svg" alt="Markdown" />

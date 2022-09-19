@@ -6,19 +6,28 @@ const ThemeSwitcher = () => {
 
     function handleClick(e: any) {
         let darkTheme = e.target.checked;
+        let icons: any = document.getElementsByClassName("icon");
 
         if (darkTheme) {
             changeTheme("dark");
+
+            for(let icon of icons) {
+                // icon.classList.replace("icon", "iconDark");
+                icon.classList.add("iconDark");
+            }
         } else {
             changeTheme("light");
+            for(let icon of icons) {
+                icon.classList.remove("iconDark");
+            }
         }
     }
 
     return(
         <label className="swap swap-rotate justify-self-end" >
             <input type="checkbox" onClick={e => handleClick(e)} />
-            <img className="swap-on dark:skIcoDark h-8" src="../src/assets/sun.svg" />
-            <img className="swap-off dark:skIcoDark h-8" src="../src/assets/moon.svg" />
+            <img className="swap-on icon h-8" src="../src/assets/sun.svg" />
+            <img className="swap-off icon h-8" src="../src/assets/moon.svg" />
         </label>
     )
 }

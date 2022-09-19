@@ -5,10 +5,8 @@ interface SkillIconProps {
 
 const SkillIcon = ({ src, alt }:SkillIconProps) => {
     return(
-        <img src={src} alt={alt} title={alt} className="dark:skIcoDark h-16" />
+        <img src={src} alt={alt} title={alt} className="icon h-16" />
     )
 }
-
-// god-like codepen: https://codepen.io/sosuke/pen/Pjoqqp
 
 export default SkillIcon;

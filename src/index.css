@@ -20,6 +20,8 @@
     @apply prose-2xl font-bold;
 }
 
-.skIcoDark {
+.iconDark {
     filter: invert(94%) sepia(8%) saturate(45%) hue-rotate(197deg) brightness(98%) contrast(90%);
+
+    /* god-like codepen: https: //codepen.io/sosuke/pen/Pjoqqp */
 }
