@@ -4,5 +4,6 @@
         "daisyui",
         "njshockey",
         "tailwindcss"
-    ]
+    ],
+    "material-icon-theme.activeIconPack": "react"
 }
