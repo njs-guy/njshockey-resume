@@ -1,7 +1,14 @@
+import { useEffect } from 'react';
 import IconGrid from '../components/IconGrid';
 import Panel from '../components/Panel';
+import { updateIcons } from '../modules/changeTheme';
 
 const Home = () => {
+
+    useEffect(()=> {
+        // Make sure icons are in the right state on page load
+        updateIcons();
+    });
 
     const proGoalsMd = "# Professional Goals\n" + "My ultimate goal is to become a software developer. " + "However, I felt that I didn't know enough after graduation to achieve this goal. " + "So, I went online and learned more skills such as Python, HTML, CSS, JavaScript, and Git." + " From there, I made a few open source projects to demonstrate those skills and tried to practice just about every day."
 

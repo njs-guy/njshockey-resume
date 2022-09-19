@@ -1,26 +1,16 @@
-import { useState } from "react";
-import { changeTheme } from "../modules/changeTheme";
+import { changeTheme, updateIcons } from "../modules/changeTheme";
 
 const ThemeSwitcher = () => {
-
-
     function handleClick(e: any) {
         let darkTheme = e.target.checked;
-        let icons: any = document.getElementsByClassName("icon");
 
         if (darkTheme) {
             changeTheme("dark");
-
-            for(let icon of icons) {
-                // icon.classList.replace("icon", "iconDark");
-                icon.classList.add("iconDark");
-            }
         } else {
             changeTheme("light");
-            for(let icon of icons) {
-                icon.classList.remove("iconDark");
-            }
         }
+
+        updateIcons();
     }
 
     return(
