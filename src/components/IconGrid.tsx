@@ -2,11 +2,11 @@ import SkillIcon from "./SkillIcon";
 
 const IconGrid = () => {
     return(
-        <span>
+        <span className="card-body p-5">
             <h1 className="panelHeading">What I can do</h1>
             <h2 className="prose-xl">Extremely familiar</h2>
             <div className="flex flex-row gap-4 flex-wrap">
-                <SkillIcon src="../src/assets/js.svg" alt="JavaScript" />
+                <SkillIcon src="../src/assets/js.svg" alt="JavaScript/TypeScript" />
                 <SkillIcon src="../src/assets/python.svg" alt="Python" />
                 <SkillIcon src="../src/assets/vuejs.svg" alt="VueJS" />
                 <SkillIcon src="../src/assets/html5.svg" alt="HTML 5" />
@@ -25,7 +25,7 @@ const IconGrid = () => {
             </div>
             <h2 className="prose-xl">Pretty familiar</h2>
             <div className="flex flex-row gap-4 flex-wrap">
-                <SkillIcon src="../src/assets/npm.svg" alt="NPM" />
+                <SkillIcon src="../src/assets/npm.svg" alt="Node Package Manager" />
                 <SkillIcon src="../src/assets/yarn.svg" alt="Yarn" />
                 <SkillIcon src="../src/assets/linux.svg" alt="Linux (i use arch btw)" />
                 <SkillIcon src="../src/assets/tailwindcss.svg" alt="tailwindcss" />
@@ -34,7 +34,7 @@ const IconGrid = () => {
                 <SkillIcon src="../src/assets/godot.svg" alt="Godot" />
                 <SkillIcon src="../src/assets/free-code-camp.svg" alt="Free Code Camp" />
             </div>
-            <h2 className="prose-xl">Wish I knew more</h2>
+            <h2 className="prose-xl">Could be better (willing to learn)</h2>
             <div className="flex flex-row gap-4 flex-wrap">
                 <SkillIcon src="../src/assets/rust.svg" alt="Rust" />
                 <SkillIcon src="../src/assets/cpp.svg" alt="C++" />

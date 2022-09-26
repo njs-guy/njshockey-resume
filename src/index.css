@@ -9,7 +9,7 @@
 }
 
 .panel {
-    @apply card card-body bg-base-200 p-5;
+    @apply card bg-base-200 shadow-md;
 }
 
 .panelContainer {
@@ -23,5 +23,5 @@
 .iconDark {
     filter: invert(94%) sepia(8%) saturate(45%) hue-rotate(197deg) brightness(98%) contrast(90%);
 
-    /* god-like codepen: https: //codepen.io/sosuke/pen/Pjoqqp */
+    /* god-like codepen: https://codepen.io/sosuke/pen/Pjoqqp */
 }
