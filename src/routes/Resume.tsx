@@ -3,7 +3,8 @@ import Panel from '../components/Panel';
 const Resume = () => {
     const newLine = "\n\n"
 
-    const coverLetterMD = "Dear reader," + newLine + 
+    const coverLetterMD = 
+    "Dear reader," + newLine + 
     "I am a recent graduate with a Bachelor of Science in IT with a minor in Software Development and am seeking more experience in the programming field. "
     + 
     "I have written several web applications using Visual Studio Code and I have a strong understanding of programming. " + 
@@ -17,7 +18,8 @@ const Resume = () => {
     "Sincerely," + newLine +
     "Nick Shockey";
 
-    const hardSkillsMD = "## Most used languages and frameworks" + newLine +
+    const hardSkillsMD = 
+    "## Most used languages and frameworks" + newLine +
     "JavaScript, TypeScript, Vue, Python, HTML, CSS" + newLine +
     "## Also skilled with" + newLine +
     "React, Markdown, Git/GitHub/GitLab, C#, Tailwindcss, Bootstrap" + newLine +
@@ -28,16 +30,26 @@ const Resume = () => {
     "## Other skills" + newLine +
     "Windows, Linux, Microsoft Office, Godot, Unity, Photoshop, Affinity Photo, DaVinci Resolve";
 
-    const softSkillsMD = "- Savvy in PC building and troubleshooting\n" +
+    const softSkillsMD = 
+    "- Savvy in PC building and troubleshooting\n" +
     "- Excellent written and oral communication skills\n" +
     "- A dependable, hard-worker\n" +
     "- Easy and eager to learn new tasks and knowledge\n";
+
+    const workHistoryMD = 
+    "- Help Desk Technician [Contract]\n" +
+    "\t - Signet Jeweler's\n" +
+    "\t- October 2021 to January 2022\n" +
+    "- Sales Associate\n" + 
+    "\t - Dollar General\n" +
+    "\t - June 2016 to March 2020";
 
     return (
         <div className="panelContainer">
             <Panel text={coverLetterMD} heading="Open cover letter" />
             <Panel text={hardSkillsMD} heading="Hard skills" />
             <Panel text={softSkillsMD} heading="Soft skills" />
+            <Panel text={workHistoryMD} heading="Work history and experience" />
         </div>
     )
 }

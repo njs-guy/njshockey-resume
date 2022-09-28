@@ -14,11 +14,11 @@ const MarkdownText = ({text}: MdTxtProps) => {
     }
 
     function pHTML(props: any) {
-        return <p>{props.children}</p>;
+        return <p className="prose text-base-content max-w-none">{props.children}</p>;
     }
 
     function ulHTML(props: any) {
-        return <ul className="list-disc list-inside">{props.children}</ul>
+        return <ul className="prose text-base-content max-w-none list-disc list-inside">{props.children}</ul>
     }
 
     return(

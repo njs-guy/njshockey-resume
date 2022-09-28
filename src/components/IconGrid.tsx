@@ -34,7 +34,7 @@ const IconGrid = () => {
                 <SkillIcon src="../src/assets/godot.svg" alt="Godot" />
                 <SkillIcon src="../src/assets/free-code-camp.svg" alt="Free Code Camp" />
             </div>
-            <h2 className="prose-xl">Could be better (willing to learn)</h2>
+            <h2 className="prose-xl">Want to learn more</h2>
             <div className="flex flex-row gap-4 flex-wrap">
                 <SkillIcon src="../src/assets/rust.svg" alt="Rust" />
                 <SkillIcon src="../src/assets/cpp.svg" alt="C++" />
