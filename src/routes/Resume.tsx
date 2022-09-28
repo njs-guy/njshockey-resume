@@ -28,10 +28,16 @@ const Resume = () => {
     "## Other skills" + newLine +
     "Windows, Linux, Microsoft Office, Godot, Unity, Photoshop, Affinity Photo, DaVinci Resolve";
 
+    const softSkillsMD = "- Savvy in PC building and troubleshooting\n" +
+    "- Excellent written and oral communication skills\n" +
+    "- A dependable, hard-worker\n" +
+    "- Easy and eager to learn new tasks and knowledge\n";
+
     return (
         <div className="panelContainer">
             <Panel text={coverLetterMD} heading="Open cover letter" />
             <Panel text={hardSkillsMD} heading="Hard skills" />
+            <Panel text={softSkillsMD} heading="Soft skills" />
         </div>
     )
 }
