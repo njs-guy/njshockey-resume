@@ -9,7 +9,7 @@
 }
 
 .panel {
-	@apply card bg-base-200 shadow-md;
+	@apply card lg:card-side bg-base-200 shadow-md;
 }
 
 .panelContainer {
@@ -18,6 +18,10 @@
 
 .panelHeading {
 	@apply prose-2xl font-bold;
+}
+
+.panelImg {
+	@apply mx-8;
 }
 
 .iconDark {

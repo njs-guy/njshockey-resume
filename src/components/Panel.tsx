@@ -17,7 +17,7 @@ const Panel = ({
 	text,
 }: PanelProps) => {
 	return (
-		<div className="panel lg:card-side">
+		<div className="panel">
 			{img !== "" && (
 				<figure>
 					<img
@@ -32,7 +32,6 @@ const Panel = ({
 				{heading !== "" && (
 					<h1 className="card-title panelHeading">{heading}</h1>
 				)}
-
 				<MarkdownText text={text} />
 			</div>
 		</div>
