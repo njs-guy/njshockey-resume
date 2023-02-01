@@ -1,6 +1,6 @@
 import React from "react";
 
-const PageNotFound = () => {
+function PageNotFound() {
 	return (
 		<div className="card card-body bg-base-200 hero min-h-48">
 			<div className="hero-content text-center">
@@ -11,6 +11,6 @@ const PageNotFound = () => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default PageNotFound;

@@ -5,7 +5,7 @@ interface MdTxtProps {
 	text: string;
 }
 
-const MarkdownText = ({ text }: MdTxtProps) => {
+function MarkdownText({ text }: MdTxtProps) {
 	function headingHTML(props: any) {
 		return <h1 className="panelHeading">{props.children}</h1>;
 	}
@@ -41,6 +41,6 @@ const MarkdownText = ({ text }: MdTxtProps) => {
 			children={text}
 		/>
 	);
-};
+}
 
 export default MarkdownText;

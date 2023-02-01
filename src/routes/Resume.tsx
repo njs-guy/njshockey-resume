@@ -1,7 +1,7 @@
 import React from "react";
 import Panel from "../components/Panel";
 
-const Resume = () => {
+function Resume() {
 	const newLine = "\n\n";
 
 	const coverLetterMD =
@@ -77,6 +77,6 @@ const Resume = () => {
 			/>
 		</div>
 	);
-};
+}
 
 export default Resume;

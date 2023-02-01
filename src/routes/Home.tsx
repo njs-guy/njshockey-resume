@@ -4,7 +4,7 @@ import IconGrid from "../components/IconGrid";
 import Panel from "../components/Panel";
 import { updateIcons } from "../modules/changeTheme";
 
-const Home = () => {
+function Home() {
 	useEffect(() => {
 		// Make sure icons are in the right state on page load
 		updateIcons();
@@ -41,6 +41,6 @@ const Home = () => {
 			</div>
 		</span>
 	);
-};
+}
 
 export default Home;

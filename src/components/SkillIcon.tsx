@@ -5,7 +5,7 @@ interface SkillIconProps {
 	alt: string;
 }
 
-const SkillIcon = ({ src, alt }: SkillIconProps) => {
+function SkillIcon({ src, alt }: SkillIconProps) {
 	return (
 		<img
 			src={src}
@@ -14,6 +14,6 @@ const SkillIcon = ({ src, alt }: SkillIconProps) => {
 			className="icon h-16"
 		/>
 	);
-};
+}
 
 export default SkillIcon;

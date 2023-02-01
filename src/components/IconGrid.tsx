@@ -1,7 +1,7 @@
 import React from "react";
 import SkillIcon from "./SkillIcon";
 
-const IconGrid = () => {
+function IconGrid() {
 	return (
 		<span className="card-body p-5">
 			<h1 className="panelHeading">What I can do</h1>
@@ -117,7 +117,7 @@ const IconGrid = () => {
 			</div>
 		</span>
 	);
-};
+}
 
 // Text items are placeholder
 

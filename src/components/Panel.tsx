@@ -9,13 +9,13 @@ interface PanelProps {
 	text: string;
 }
 
-const Panel = ({
+function Panel({
 	heading = "",
 	img = "",
 	imgClass = "",
 	alt = "",
 	text,
-}: PanelProps) => {
+}: PanelProps) {
 	return (
 		<div className="panel">
 			{img !== "" && (
@@ -36,6 +36,6 @@ const Panel = ({
 			</div>
 		</div>
 	);
-};
+}
 
 export default Panel;

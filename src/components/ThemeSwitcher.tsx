@@ -1,7 +1,7 @@
 import React from "react";
 import { changeTheme, updateIcons } from "../modules/changeTheme";
 
-const ThemeSwitcher = () => {
+function ThemeSwitcher() {
 	function handleClick(e: any) {
 		let darkTheme = e.target.checked;
 
@@ -30,6 +30,6 @@ const ThemeSwitcher = () => {
 			/>
 		</label>
 	);
-};
+}
 
 export default ThemeSwitcher;
