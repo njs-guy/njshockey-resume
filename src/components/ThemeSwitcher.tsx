@@ -1,3 +1,4 @@
+import React from "react";
 import { changeTheme, updateIcons } from "../modules/changeTheme";
 
 const ThemeSwitcher = () => {

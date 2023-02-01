@@ -1,3 +1,4 @@
+import React from "react";
 import MarkdownText from "./MarkdownText";
 
 interface PanelProps {
