@@ -3,25 +3,26 @@
 @tailwind utilities;
 
 .App {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0 auto;
 }
 
 .panel {
-    @apply card bg-base-200 shadow-md;
+	@apply card bg-base-200 shadow-md;
 }
 
 .panelContainer {
-    @apply flex flex-col space-y-4;
+	@apply flex flex-col space-y-4;
 }
 
 .panelHeading {
-    @apply prose-2xl font-bold;
+	@apply prose-2xl font-bold;
 }
 
 .iconDark {
-    filter: invert(94%) sepia(8%) saturate(45%) hue-rotate(197deg) brightness(98%) contrast(90%);
+	filter: invert(94%) sepia(8%) saturate(45%) hue-rotate(197deg)
+		brightness(98%) contrast(90%);
 
-    /* god-like codepen: https://codepen.io/sosuke/pen/Pjoqqp */
+	/* god-like codepen: https://codepen.io/sosuke/pen/Pjoqqp */
 }

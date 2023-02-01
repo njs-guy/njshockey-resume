@@ -1,25 +1,34 @@
 import { changeTheme, updateIcons } from "../modules/changeTheme";
 
 const ThemeSwitcher = () => {
-    function handleClick(e: any) {
-        let darkTheme = e.target.checked;
+	function handleClick(e: any) {
+		let darkTheme = e.target.checked;
 
-        if (darkTheme) {
-            changeTheme("dark");
-        } else {
-            changeTheme("light");
-        }
+		if (darkTheme) {
+			changeTheme("dark");
+		} else {
+			changeTheme("light");
+		}
 
-        updateIcons();
-    }
+		updateIcons();
+	}
 
-    return(
-        <label className="swap swap-rotate justify-self-end" >
-            <input type="checkbox" onClick={e => handleClick(e)} />
-            <img className="swap-on icon h-8" src="../src/assets/sun.svg" />
-            <img className="swap-off icon h-8" src="../src/assets/moon.svg" />
-        </label>
-    )
-}
+	return (
+		<label className="swap swap-rotate justify-self-end">
+			<input
+				type="checkbox"
+				onClick={(e) => handleClick(e)}
+			/>
+			<img
+				className="swap-on icon h-8"
+				src="../src/assets/sun.svg"
+			/>
+			<img
+				className="swap-off icon h-8"
+				src="../src/assets/moon.svg"
+			/>
+		</label>
+	);
+};
 
 export default ThemeSwitcher;
