@@ -1,15 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-// const colors = require('tailwindcss/colors');
-
 const fontFam = "Roboto, Arial, Helvetica, sans"; // Font family
 const primary = "#2563eb"; // The primary color
 
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  theme: {
-    extend: {},
-  },
+  content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   plugins: [require("@tailwindcss/typography"), require('daisyui')],
   daisyui: {
     themes: [
