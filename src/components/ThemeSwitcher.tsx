@@ -3,7 +3,7 @@ import { changeTheme, updateIcons } from "../modules/changeTheme";
 
 function ThemeSwitcher() {
 	function handleClick(e: any) {
-		let darkTheme = e.target.checked;
+		const darkTheme = e.target.checked;
 
 		if (darkTheme) {
 			changeTheme("dark");
@@ -18,7 +18,10 @@ function ThemeSwitcher() {
 		<label className="swap swap-rotate justify-self-end">
 			<input
 				type="checkbox"
-				onClick={(e) => handleClick(e)}
+				onClick={(e) => {
+					console.log(typeof e);
+					handleClick(e);
+				}}
 			/>
 			<img
 				className="swap-on icon h-8"

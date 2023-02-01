@@ -11,7 +11,7 @@ function Resume() {
 		"I have written several web applications using Visual Studio Code and I have a strong understanding of programming. " +
 		"I am a quick learner and can understand new information and practices with relative ease. " +
 		"Here is what I have to offer:\n" +
-		"- Around 1 years’ experience in creating web applications in JavaScript. I am also very familiar with TypeScript, Python, HTML, CSS, C++, and Visual Basic.\n" +
+		"- Around 1 years' experience in creating web applications in JavaScript. I am also very familiar with TypeScript, Python, HTML, CSS, C++, and Visual Basic.\n" +
 		"- Great at problem solving and good at taking advantage of current resources.\n" +
 		"- Excellent at researching new solutions and information.\n" +
 		"- Willingness to learn." +

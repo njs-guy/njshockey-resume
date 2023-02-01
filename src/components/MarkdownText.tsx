@@ -38,8 +38,9 @@ function MarkdownText({ text }: MdTxtProps) {
 				ul: ulHTML,
 				p: pHTML,
 			}}
-			children={text}
-		/>
+		>
+			{text}
+		</ReactMarkdown>
 	);
 }
 

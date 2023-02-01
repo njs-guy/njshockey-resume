@@ -1,10 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-interface NavBarProps {
-	active: number;
-}
-
 function NavBar() {
 	return (
 		<ul className="menu menu-horizontal bg-base-200 shadow-md rounded-box object-center self-center justify-self-start">
