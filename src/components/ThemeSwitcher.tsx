@@ -1,17 +1,18 @@
 import React from "react";
-import { changeTheme, updateIcons } from "../modules/changeTheme";
+import { changeTheme } from "../modules/changeTheme";
 
 function ThemeSwitcher() {
 	function handleClick(e: any) {
+		let theme = "";
 		const darkTheme = e.target.checked;
 
 		if (darkTheme) {
-			changeTheme("dark");
+			theme = "dark";
 		} else {
-			changeTheme("light");
+			theme = "light";
 		}
 
-		updateIcons();
+		changeTheme(theme);
 	}
 
 	return (
@@ -20,7 +21,6 @@ function ThemeSwitcher() {
 				type="checkbox"
 				id="themeSwitcherCheckBox"
 				onClick={(e) => {
-					console.log(typeof e);
 					handleClick(e);
 				}}
 			/>

@@ -2,6 +2,9 @@ export function changeTheme(theme: string) {
 	const html = document.documentElement;
 	html.removeAttribute("data-theme"); // remove previous theme
 	html.setAttribute("data-theme", theme); // set new theme
+
+	themeConfig(theme);
+	updateIcons();
 }
 
 export function themeConfig(theme: string) {
@@ -12,7 +15,12 @@ export function loadConfig() {
 	const check = document.getElementById(
 		"themeSwitcherCheckBox"
 	) as HTMLInputElement;
-	const themeConfig = "dark";
+	const themeConfig: string | null = localStorage.getItem("theme");
+
+	// No setting, so do nothing.
+	if (themeConfig === null) {
+		return;
+	}
 
 	// Change checkbox state if necessary
 	if (themeConfig === "dark") {
@@ -20,7 +28,6 @@ export function loadConfig() {
 	}
 
 	changeTheme(themeConfig);
-	updateIcons();
 }
 
 export function updateIcons() {
