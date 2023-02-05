@@ -11,3 +11,6 @@ More information can be found here: https://boxicons.com/usage#license.
 The Bash logo was taken from Wikimedia Commons under the FAL License.
 More information can be found here https://commons.wikimedia.org/wiki/File:Bash_Logo_black_and_white_icon_only.svg
 and here https://github.com/odb/official-bash-logo/blob/master/assets/LICENSE.
+
+The .NET logo was taken from the dotnet/brand repo on GitHub and edited by me.
+More information can be found here: https://github.com/dotnet/brand#license.

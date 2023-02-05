@@ -1,6 +1,17 @@
 import React from "react";
 import SkillIcon from "./SkillIcon";
+
 import JsIcon from "./icons/JsIcon";
+import PyIcon from "./icons/PyIcon";
+import VueIcon from "./icons/VueIcon";
+import HtmlIcon from "./icons/HtmlIcon";
+import CssIcon from "./icons/CssIcon";
+import WindowsIcon from "./icons/WindowsIcon";
+
+import DotNetIcon from "./icons/DotNetIcon";
+
+// TODO: Finish converting icons
+// TODO: Add Svelte
 
 function IconGrid() {
 	return (
@@ -9,26 +20,11 @@ function IconGrid() {
 			<h2 className="prose-xl">Most Knowledgeable</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<JsIcon />
-				<SkillIcon
-					src="../src/assets/python.svg"
-					alt="Python"
-				/>
-				<SkillIcon
-					src="../src/assets/vuejs.svg"
-					alt="VueJS"
-				/>
-				<SkillIcon
-					src="../src/assets/html5.svg"
-					alt="HTML 5"
-				/>
-				<SkillIcon
-					src="../src/assets/css3.svg"
-					alt="CSS"
-				/>
-				<SkillIcon
-					src="../src/assets/windows.svg"
-					alt="Windows"
-				/>
+				<PyIcon />
+				<VueIcon />
+				<HtmlIcon />
+				<CssIcon />
+				<WindowsIcon />
 			</div>
 			<h2 className="prose-xl">Well versed</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
@@ -36,38 +32,18 @@ function IconGrid() {
 					src="../src/assets/react-fa.svg"
 					alt="React"
 				/>
-				<p>C#</p>
+				<DotNetIcon />
 				<SkillIcon
 					src="../src/assets/markdown.svg"
 					alt="Markdown"
 				/>
 				<SkillIcon
-					src="../src/assets/github.svg"
-					alt="GitHub"
-				/>
-				<SkillIcon
-					src="../src/assets/gitlab.svg"
-					alt="GitLab"
-				/>
-				<SkillIcon
 					src="../src/assets/git.svg"
 					alt="Git"
-				/>
-				<SkillIcon
-					src="../src/assets/stack-overflow.svg"
-					alt="Stack Overflow, our lord and savior"
 				/>
 			</div>
 			<h2 className="prose-xl">Pretty familiar</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<SkillIcon
-					src="../src/assets/npm.svg"
-					alt="Node Package Manager"
-				/>
-				<SkillIcon
-					src="../src/assets/yarn.svg"
-					alt="Yarn"
-				/>
 				<SkillIcon
 					src="../src/assets/linux.svg"
 					alt="Linux (i use arch btw)"
@@ -84,10 +60,6 @@ function IconGrid() {
 				<SkillIcon
 					src="../src/assets/godot.svg"
 					alt="Godot"
-				/>
-				<SkillIcon
-					src="../src/assets/free-code-camp.svg"
-					alt="Free Code Camp"
 				/>
 			</div>
 			<h2 className="prose-xl">Want to learn more</h2>
