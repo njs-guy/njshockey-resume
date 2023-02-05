@@ -15,6 +15,7 @@ function ThemeSwitcher() {
 		changeTheme(theme);
 	}
 
+	// TODO: Change swap icon to a different class
 	return (
 		<label className="themeSwitcher swap swap-rotate justify-self-end">
 			<input

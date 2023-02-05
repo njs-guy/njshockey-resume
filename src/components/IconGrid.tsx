@@ -1,5 +1,6 @@
 import React from "react";
 import SkillIcon from "./SkillIcon";
+import JsIcon from "./icons/JsIcon";
 
 function IconGrid() {
 	return (
@@ -7,10 +8,7 @@ function IconGrid() {
 			<h1 className="panelHeading">What I can do</h1>
 			<h2 className="prose-xl">Most Knowledgeable</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<SkillIcon
-					src="../src/assets/js.svg"
-					alt="JavaScript/TypeScript"
-				/>
+				<JsIcon />
 				<SkillIcon
 					src="../src/assets/python.svg"
 					alt="Python"

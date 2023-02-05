@@ -28,6 +28,10 @@ h2 {
 	@apply mx-8;
 }
 
+.icon {
+	@apply h-16 text-inherit;
+}
+
 .iconDark {
 	filter: invert(94%) sepia(8%) saturate(45%) hue-rotate(197deg)
 		brightness(98%) contrast(90%);

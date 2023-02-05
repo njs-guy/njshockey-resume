@@ -1,0 +1,13 @@
+Most icons in this folder are from Font Awesome.
+Font Awesome's free icons use the CC BY 4.0 License.
+More information can be found here: https://fontawesome.com/license/free.
+
+The Godot logo icon is from the Godot Press Kit and uses the CC 4.0 license.
+More information can be found here: https://godotengine.org/press.
+
+The TailwindCSS and C++ logo icons are from BoxIcons and use the MIT license.
+More information can be found here: https://boxicons.com/usage#license.
+
+The Bash logo was taken from Wikimedia Commons under the FAL License.
+More information can be found here https://commons.wikimedia.org/wiki/File:Bash_Logo_black_and_white_icon_only.svg
+and here https://github.com/odb/official-bash-logo/blob/master/assets/LICENSE.
