@@ -15,9 +15,10 @@ function ThemeSwitcher() {
 	}
 
 	return (
-		<label className="swap swap-rotate justify-self-end">
+		<label className="themeSwitcher swap swap-rotate justify-self-end">
 			<input
 				type="checkbox"
+				id="themeSwitcherCheckBox"
 				onClick={(e) => {
 					console.log(typeof e);
 					handleClick(e);
