@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+	@apply text-2xl font-bold;
+}
+
+h2 {
+	@apply text-xl font-bold;
+}
+
 .App {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -14,10 +22,6 @@
 
 .panelContainer {
 	@apply flex flex-col space-y-4;
-}
-
-.panelHeading {
-	@apply prose-2xl font-bold;
 }
 
 .panelImg {

@@ -29,9 +29,7 @@ function Panel({
 				</figure>
 			)}
 			<div className="card-body p-5">
-				{heading !== "" && (
-					<h1 className="card-title panelHeading">{heading}</h1>
-				)}
+				{heading !== "" && <h1>{heading}</h1>}
 				<MarkdownText text={text} />
 			</div>
 		</div>

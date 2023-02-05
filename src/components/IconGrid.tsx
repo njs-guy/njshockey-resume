@@ -5,7 +5,7 @@ function IconGrid() {
 	return (
 		<span className="card-body p-5">
 			<h1 className="panelHeading">What I can do</h1>
-			<h2 className="prose-xl">Extremely familiar</h2>
+			<h2 className="prose-xl">Most Knowledgeable</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<SkillIcon
 					src="../src/assets/js.svg"
@@ -32,7 +32,7 @@ function IconGrid() {
 					alt="Windows"
 				/>
 			</div>
-			<h2 className="prose-xl">Very familiar</h2>
+			<h2 className="prose-xl">Well versed</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<SkillIcon
 					src="../src/assets/react-fa.svg"
