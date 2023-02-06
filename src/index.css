@@ -29,12 +29,9 @@ h2 {
 }
 
 .icon {
-	@apply h-16 text-inherit;
+	@apply h-16 fill-base-content;
 }
 
-.iconDark {
-	filter: invert(94%) sepia(8%) saturate(45%) hue-rotate(197deg)
-		brightness(98%) contrast(90%);
-
-	/* god-like codepen: https://codepen.io/sosuke/pen/Pjoqqp */
+.swapIcon {
+	@apply h-8 fill-base-content;
 }

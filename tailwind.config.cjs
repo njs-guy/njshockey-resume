@@ -9,6 +9,7 @@ module.exports = {
 	daisyui: {
 		themes: [
 			{
+				// TODO: Get rid of require error.
 				light: {
 					...require("daisyui/src/colors/themes")[
 						"[data-theme=light]"
