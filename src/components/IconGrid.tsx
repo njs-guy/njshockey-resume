@@ -8,7 +8,10 @@ import HtmlIcon from "./icons/HtmlIcon";
 import CssIcon from "./icons/CssIcon";
 import WindowsIcon from "./icons/WindowsIcon";
 
+import ReactIcon from "./icons/ReactIcon";
 import DotNetIcon from "./icons/DotNetIcon";
+import MarkdownIcon from "./icons/MarkdownIcon";
+import GitIcon from "./icons/GitIcon";
 
 // TODO: Finish converting icons
 // TODO: Add Svelte
@@ -28,19 +31,10 @@ function IconGrid() {
 			</div>
 			<h2 className="prose-xl">Well versed</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<SkillIcon
-					src="../src/assets/react-fa.svg"
-					alt="React"
-				/>
+				<ReactIcon />
 				<DotNetIcon />
-				<SkillIcon
-					src="../src/assets/markdown.svg"
-					alt="Markdown"
-				/>
-				<SkillIcon
-					src="../src/assets/git.svg"
-					alt="Git"
-				/>
+				<MarkdownIcon />
+				<GitIcon />
 			</div>
 			<h2 className="prose-xl">Pretty familiar</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
