@@ -2,7 +2,7 @@ import React from "react";
 
 function PageNotFound() {
 	return (
-		<div className="card card-body bg-base-200 hero min-h-48">
+		<div className="card card-body bg-base-200 hero min-h-48 shadow-md">
 			<div className="hero-content text-center">
 				<div className="max-w-md">
 					<h1 className="text-5xl font-bold">Page not found.</h1>
