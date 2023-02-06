@@ -1,6 +1,7 @@
 import React from "react";
 
-// Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.
+// The .NET logo was taken from the dotnet/brand repo on GitHub and edited by me.
+// More information can be found here: https://github.com/dotnet/brand#license.
 
 function DotNetIcon() {
 	return (

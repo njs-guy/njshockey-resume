@@ -13,6 +13,11 @@ import DotNetIcon from "./icons/DotNetIcon";
 import MarkdownIcon from "./icons/MarkdownIcon";
 import GitIcon from "./icons/GitIcon";
 
+import LinuxIcon from "./icons/LinuxIcon";
+import TailwindIcon from "./icons/TailwindIcon";
+import BootstrapIcon from "./icons/Bootstrap";
+import GodotIcon from "./icons/GodotIcon";
+
 // TODO: Finish converting icons
 // TODO: Add Svelte
 
@@ -38,23 +43,11 @@ function IconGrid() {
 			</div>
 			<h2 className="prose-xl">Pretty familiar</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<SkillIcon
-					src="../src/assets/linux.svg"
-					alt="Linux (i use arch btw)"
-				/>
-				<SkillIcon
-					src="../src/assets/tailwindcss.svg"
-					alt="tailwindcss"
-				/>
-				<SkillIcon
-					src="../src/assets/bootstrap.svg"
-					alt="BootStrap"
-				/>
+				<LinuxIcon />
+				<TailwindIcon />
+				<BootstrapIcon />
 
-				<SkillIcon
-					src="../src/assets/godot.svg"
-					alt="Godot"
-				/>
+				<GodotIcon />
 			</div>
 			<h2 className="prose-xl">Want to learn more</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
