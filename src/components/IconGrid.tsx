@@ -2,30 +2,28 @@ import React from "react";
 import SkillIcon from "./SkillIcon";
 
 import JsIcon from "./icons/JsIcon";
-import PyIcon from "./icons/PyIcon";
 import VueIcon from "./icons/VueIcon";
 import HtmlIcon from "./icons/HtmlIcon";
 import CssIcon from "./icons/CssIcon";
+import RustIcon from "./icons/RustIcon";
+import PyIcon from "./icons/PyIcon";
 import WindowsIcon from "./icons/WindowsIcon";
 
+import LinuxIcon from "./icons/LinuxIcon";
 import ReactIcon from "./icons/ReactIcon";
 import DotNetIcon from "./icons/DotNetIcon";
-import MarkdownIcon from "./icons/MarkdownIcon";
-import GitIcon from "./icons/GitIcon";
-
-import LinuxIcon from "./icons/LinuxIcon";
 import TailwindIcon from "./icons/TailwindIcon";
+import GitIcon from "./icons/GitIcon";
+import MarkdownIcon from "./icons/MarkdownIcon";
+
 import BootstrapIcon from "./icons/Bootstrap";
 import GodotIcon from "./icons/GodotIcon";
+import UnityIcon from "./icons/UnityIcon";
+import SvelteIcon from "./icons/SvelteIcon";
+import BashIcon from "./icons/BashIcon";
 
-import RustIcon from "./icons/RustIcon";
 import CppIcon from "./icons/CppIcon";
 import DatabaseIcon from "./icons/DatabaseIcon";
-import BashIcon from "./icons/BashIcon";
-import UnityIcon from "./icons/UnityIcon";
-
-// TODO: Finish converting icons
-// TODO: Add Svelte
 
 function IconGrid() {
 	return (
@@ -46,15 +44,16 @@ function IconGrid() {
 				<LinuxIcon />
 				<ReactIcon />
 				<DotNetIcon />
+				<TailwindIcon />
 				<GitIcon />
 				<MarkdownIcon />
 			</div>
 			<h2 className="prose-xl">Pretty familiar</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<TailwindIcon />
 				<BootstrapIcon />
 				<GodotIcon />
 				<UnityIcon />
+				<SvelteIcon />
 				<BashIcon />
 			</div>
 			<h2 className="prose-xl">Want to learn more</h2>

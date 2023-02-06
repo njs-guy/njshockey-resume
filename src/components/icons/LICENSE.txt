@@ -8,6 +8,11 @@ More information can be found here: https://godotengine.org/press.
 The TailwindCSS and C++ logo icons are from BoxIcons and use the MIT license.
 More information can be found here: https://boxicons.com/usage#license.
 
+The Svelte logo was taken from the sveltejs/branding repo on GitHub and edited by me.
+SvelteJS uses the MIT License.
+More information can be found here https://github.com/sveltejs/branding
+and here https://github.com/sveltejs/svelte.
+
 The Bash logo was taken from Wikimedia Commons under the FAL License.
 More information can be found here https://commons.wikimedia.org/wiki/File:Bash_Logo_black_and_white_icon_only.svg
 and here https://github.com/odb/official-bash-logo/blob/master/assets/LICENSE.
