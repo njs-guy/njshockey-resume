@@ -18,6 +18,12 @@ import TailwindIcon from "./icons/TailwindIcon";
 import BootstrapIcon from "./icons/Bootstrap";
 import GodotIcon from "./icons/GodotIcon";
 
+import RustIcon from "./icons/RustIcon";
+import CppIcon from "./icons/CppIcon";
+import DatabaseIcon from "./icons/DatabaseIcon";
+import BashIcon from "./icons/BashIcon";
+import UnityIcon from "./icons/UnityIcon";
+
 // TODO: Finish converting icons
 // TODO: Add Svelte
 
@@ -28,49 +34,33 @@ function IconGrid() {
 			<h2 className="prose-xl">Most Knowledgeable</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<JsIcon />
-				<PyIcon />
 				<VueIcon />
 				<HtmlIcon />
 				<CssIcon />
+				<RustIcon />
+				<PyIcon />
 				<WindowsIcon />
 			</div>
 			<h2 className="prose-xl">Well versed</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
+				<LinuxIcon />
 				<ReactIcon />
 				<DotNetIcon />
-				<MarkdownIcon />
 				<GitIcon />
+				<MarkdownIcon />
 			</div>
 			<h2 className="prose-xl">Pretty familiar</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<LinuxIcon />
 				<TailwindIcon />
 				<BootstrapIcon />
-
 				<GodotIcon />
+				<UnityIcon />
+				<BashIcon />
 			</div>
 			<h2 className="prose-xl">Want to learn more</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<SkillIcon
-					src="../src/assets/rust.svg"
-					alt="Rust"
-				/>
-				<SkillIcon
-					src="../src/assets/cpp.svg"
-					alt="C++"
-				/>
-				<SkillIcon
-					src="../src/assets/sql.svg"
-					alt="SQL/SQLite/MySQL/etc."
-				/>
-				<SkillIcon
-					src="../src/assets/bash.svg"
-					alt="Bash/zsh/fish/Powershell"
-				/>
-				<SkillIcon
-					src="../src/assets/unity.svg"
-					alt="Unity"
-				/>
+				<CppIcon />
+				<DatabaseIcon />
 			</div>
 		</span>
 	);
