@@ -59,10 +59,7 @@ function Resume() {
 
 	return (
 		<div className="panelContainer">
-			<Panel
-				text={coverLetterMD}
-				heading="Open cover letter"
-			/>
+			<Panel text={coverLetterMD} />
 			<Panel
 				text={hardSkillsMD}
 				heading="Hard skills"

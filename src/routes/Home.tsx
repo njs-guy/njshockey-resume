@@ -12,16 +12,22 @@ function Home() {
 
 	const greetingText =
 		"Hello! I'm Nick Shockey. " +
-		"I am a recent and driven graduate looking to gain professional experience with multiple open-source projects under my belt. " +
-		"With about a 3.7 GPA, I was able to make the Dean's List for most semesters and achieved Magnum Cum Laude. " +
-		"I am a hard worker that is currently looking for work in IT, programming, or software development. " +
+		"I'm an ambitious and highly motivated recent graduate " +
+		"who is eager to leverage my academic achievements and passion for learning " +
+		"to contribute to a dynamic and fast-paced professional environment. " +
+		"With a natural aptitude for acquiring new skills and a proven track record of academic excellence, " +
+		"I'm confident in my ability to quickly adapt to new challenges and make meaningful contributions to any team. " +
+		"All while being proficient in multiple programming languages and frameworks. " +
 		"This e-portfolio will tell you about my professional goals, skills, and experience.";
 
 	const proGoalsMd =
-		"My ultimate goal is to become a software developer. " +
-		"However, I felt that I didn't know enough after graduation to achieve this goal. " +
-		"So, I went online and learned more skills such as Python, HTML, CSS, JavaScript, and Git." +
-		" From there, I made a few open source projects to demonstrate those skills and tried to practice just about every day.";
+		"Driven by my ultimate goal of becoming a software developer, " +
+		"I recognized the need to improve my technical skills beyond what I learned in school. " +
+		"To achieve this, I proactively pursued online learning opportunities, " +
+		"where I gained proficiency in a range of programming languages and tools " +
+		"such as Python, HTML, CSS, JavaScript, Rust, and Git. " +
+		"In order to solidify my knowledge, I committed to daily practice " +
+		"and dedicated myself to creating open source projects that showcased my abilities.";
 
 	return (
 		<span>
