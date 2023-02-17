@@ -27,7 +27,12 @@ function Home() {
 		"where I gained proficiency in a range of programming languages and tools " +
 		"such as Python, HTML, CSS, JavaScript, Rust, and Git. " +
 		"In order to solidify my knowledge, I committed to daily practice " +
-		"and dedicated myself to creating open source projects that showcased my abilities.";
+		"and dedicated myself to creating open source projects that showcased my abilities.\n\n" +
+		"As a result of my persistence and dedication, " +
+		"I have become well-versed in the latest industry trends and tools, " +
+		"and possess the ability to quickly adapt to new technologies. " +
+		"I believe that my passion for learning and strong work ethic " +
+		"make me an ideal candidate for any software development role.";
 
 	return (
 		<span>

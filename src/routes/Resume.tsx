@@ -34,7 +34,7 @@ function Resume() {
 	const workHistoryMD =
 		"## Help Desk Technician\n" +
 		"### Signet Jeweler's • October 2021 to January 2022\n" +
-		"As a contracted troubleshooting specialist at Teksystems, " +
+		"As a contracted Help Desk Technician at Teksystems, " +
 		"I demonstrated exceptional problem-solving skills " +
 		"by expertly resolving technical issues related to " +
 		"iPads, gem scopes, internet connectivity, and phone systems for numerous stores. " +
