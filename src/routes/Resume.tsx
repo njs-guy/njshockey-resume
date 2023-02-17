@@ -4,40 +4,22 @@ import Panel from "../components/Panel";
 function Resume() {
 	const newLine = "\n\n";
 
-	const coverLetterMD =
-		"Dear reader," +
+	const techSkillsMD =
+		"## Languages" +
 		newLine +
-		"I am a recent graduate with a Bachelor of Science in IT with a minor in Software Development and am seeking more experience in the programming field. " +
-		"I have written several web applications using Visual Studio Code and I have a strong understanding of programming. " +
-		"I am a quick learner and can understand new information and practices with relative ease. " +
-		"Here is what I have to offer:\n" +
-		"- Around 1 years' experience in creating web applications in JavaScript. I am also very familiar with TypeScript, Python, HTML, CSS, C++, and Visual Basic.\n" +
-		"- Great at problem solving and good at taking advantage of current resources.\n" +
-		"- Excellent at researching new solutions and information.\n" +
-		"- Willingness to learn." +
+		"JavaScript/TypeScript, Python, Rust, HTML, CSS, C#, C/C++" +
 		newLine +
-		"Thank you for taking the time to review my résumé. I look forward to talking with you." +
+		"## Frameworks" +
 		newLine +
-		"Sincerely," +
+		"Vue, React, Svelte, TailwindCSS, Bootstrap, Django, ASP.NET" +
 		newLine +
-		"Nick Shockey";
-
-	const hardSkillsMD =
-		"## Most used languages and frameworks" +
+		"## Databases" +
 		newLine +
-		"JavaScript, TypeScript, Vue, Python, HTML, CSS" +
+		"SQLite, MySQL" +
 		newLine +
-		"## Also skilled with" +
+		"## Tools" +
 		newLine +
-		"React, Markdown, Git/GitHub/GitLab, C#, Tailwindcss, Bootstrap" +
-		newLine +
-		"## Want to learn more" +
-		newLine +
-		"Rust, C/C++, SQL, Bash" +
-		newLine +
-		"## Favorite dev tools" +
-		newLine +
-		"Visual Studio Code, Visual Studio, Notepad++, Neovim, Beekeeper Studio" +
+		"VS Code, Neovim, Git/GitHub/GitLab, Docker, Teams, Bash/Powershell" +
 		newLine +
 		"## Other skills" +
 		newLine +
@@ -50,19 +32,32 @@ function Resume() {
 		"- Easy and eager to learn new tasks and knowledge\n";
 
 	const workHistoryMD =
-		"- Help Desk Technician [Contract]\n" +
-		"\t - Signet Jeweler's\n" +
-		"\t- October 2021 to January 2022\n" +
-		"- Sales Associate\n" +
-		"\t - Dollar General\n" +
-		"\t - June 2016 to March 2020";
+		"## Help Desk Technician\n" +
+		"### Signet Jeweler's • October 2021 to January 2022\n" +
+		"As a contracted troubleshooting specialist at Teksystems, " +
+		"I demonstrated exceptional problem-solving skills " +
+		"by expertly resolving technical issues related to " +
+		"iPads, gem scopes, internet connectivity, and phone systems for numerous stores. " +
+		"I was responsible for providing remote support, " +
+		"which involved guiding clients through password resets " +
+		"and other technical challenges. " +
+		"Throughout my tenure, I consistently received positive feedback " +
+		"from both clients and supervisors, " +
+		"who praised my ability to handle complex technical issues " +
+		"and deliver solutions with speed and precision.\n" +
+		"## Sales Associate\n" +
+		"### Dollar General • June 2016 to March 2020\n" +
+		"While I was mostly in charge of stocking shelves, I also helped customers find " +
+		"what they were looking for which helped my interpersonal " +
+		"and memorization skills. Since I was in school at the time, this job also " +
+		"allowed me the opportunity to work on time management skills, " +
+		"which made me more efficient in general.";
 
 	return (
 		<div className="panelContainer">
-			<Panel text={coverLetterMD} />
 			<Panel
-				text={hardSkillsMD}
-				heading="Hard skills"
+				text={techSkillsMD}
+				heading="Technical skills"
 			/>
 			<Panel
 				text={softSkillsMD}
@@ -70,7 +65,7 @@ function Resume() {
 			/>
 			<Panel
 				text={workHistoryMD}
-				heading="Work history and experience"
+				heading="Work Experience"
 			/>
 		</div>
 	);

@@ -1,5 +1,4 @@
 import React from "react";
-import SkillIcon from "./SkillIcon";
 
 import JsIcon from "./icons/JsIcon";
 import VueIcon from "./icons/VueIcon";
