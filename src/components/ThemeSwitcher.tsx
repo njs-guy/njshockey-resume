@@ -17,7 +17,6 @@ function ThemeSwitcher() {
 
 	// Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.
 
-	// TODO: Change swap icon to a different class
 	return (
 		<label className="themeSwitcher swap swap-rotate justify-self-end">
 			<input
@@ -27,14 +26,6 @@ function ThemeSwitcher() {
 					handleClick(e);
 				}}
 			/>
-			{/* <img
-				className="swap-on icon h-8"
-				src="../src/assets/sun.svg"
-			/>
-			<img
-				className="swap-off icon h-8"
-				src="../src/assets/moon.svg"
-			/> */}
 			<svg
 				className="swap-on swapIcon"
 				xmlns="http://www.w3.org/2000/svg"

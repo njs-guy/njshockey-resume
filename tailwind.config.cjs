@@ -9,11 +9,8 @@ module.exports = {
 	daisyui: {
 		themes: [
 			{
-				// TODO: Get rid of require error.
 				light: {
-					...require("daisyui/src/colors/themes")[
-						"[data-theme=light]"
-					],
+					...["[data-theme=light]"],
 					"fontFamily": fontFam,
 					"base-100": "#d4d4d4",
 					"base-200": "#e5e5e5",
@@ -23,9 +20,7 @@ module.exports = {
 					"--btn-text-case": "none",
 				},
 				dark: {
-					...require("daisyui/src/colors/themes")[
-						"[data-theme=dark]"
-					],
+					...["[data-theme=dark]"],
 					"fontFamily": fontFam,
 					"base-100": "#171717",
 					"base-200": "#262626",
