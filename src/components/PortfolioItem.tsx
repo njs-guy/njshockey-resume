@@ -1,5 +1,4 @@
 import React from "react";
-import Panel from "../components/Panel";
 import MarkdownText from "./MarkdownText";
 
 interface PortfolioItemProps {
