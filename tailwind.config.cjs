@@ -17,6 +17,7 @@ module.exports = {
 					"base-300": "#f5f5f5",
 					"base-content": "#000000",
 					"primary": primary,
+					"secondary": "#000",
 					"--btn-text-case": "none",
 				},
 				dark: {
@@ -27,6 +28,7 @@ module.exports = {
 					"base-300": "#404040",
 					"base-content": "#e4e4e7",
 					"primary": primary,
+					"secondary": "#fff",
 					"--btn-text-case": "none",
 				},
 			},
