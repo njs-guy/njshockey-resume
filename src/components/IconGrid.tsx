@@ -22,12 +22,13 @@ import SvelteIcon from "./icons/SvelteIcon";
 import BashIcon from "./icons/BashIcon";
 
 import CppIcon from "./icons/CppIcon";
-import DatabaseIcon from "./icons/DatabaseIcon";
 import JavaIcon from "./icons/JavaIcon";
+import DatabaseIcon from "./icons/DatabaseIcon";
 
 import VIcon from "./icons/VIcon";
 import KotlinIcon from "./icons/KotlinIcon";
 import LuaIcon from "./icons/LuaIcon";
+import ZigIcon from "./icons/ZigIcon";
 import WasmIcon from "./icons/WasmIcon";
 import TensorFlowIcon from "./icons/TensorFlowIcon";
 
@@ -73,6 +74,7 @@ function IconGrid() {
 				<VIcon />
 				<KotlinIcon />
 				<LuaIcon />
+				<ZigIcon />
 				<WasmIcon />
 				<TensorFlowIcon />
 			</div>

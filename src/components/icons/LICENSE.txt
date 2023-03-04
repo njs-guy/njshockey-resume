@@ -36,3 +36,6 @@ More information can be found here https://kotlinlang.org/docs/kotlin-brand-asse
 
 The TensorFlow logo was taken from the TensorFlow brand guidelines.
 More information can be found here https://www.tensorflow.org/extras/tensorflow_brand_guidelines.pdf.
+
+The Zig logo was taken from the ziglang/logo repo on Github.
+More information can be found here https://github.com/ziglang/logo.
