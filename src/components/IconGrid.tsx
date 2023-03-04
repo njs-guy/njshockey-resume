@@ -23,6 +23,9 @@ import BashIcon from "./icons/BashIcon";
 
 import CppIcon from "./icons/CppIcon";
 import DatabaseIcon from "./icons/DatabaseIcon";
+import JavaIcon from "./icons/JavaIcon";
+
+import KotlinIcon from "./icons/KotlinIcon";
 
 function IconGrid() {
 	return (
@@ -49,16 +52,22 @@ function IconGrid() {
 			</div>
 			<h2 className="prose-xl">Pretty familiar</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
+				<SvelteIcon />
 				<BootstrapIcon />
 				<GodotIcon />
 				<UnityIcon />
-				<SvelteIcon />
 				<BashIcon />
 			</div>
-			<h2 className="prose-xl">Want to learn more</h2>
+			<h2 className="prose-xl">Got the basics</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<CppIcon />
+				<JavaIcon />
 				<DatabaseIcon />
+			</div>
+			<h2 className="prose-xl">Don&apos;t know, but want to</h2>
+			<div className="flex flex-row gap-4 flex-wrap">
+				<KotlinIcon />
+				{/* V, Kotlin, Lua, Tensorflow, WASM */}
 			</div>
 		</span>
 	);

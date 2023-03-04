@@ -5,6 +5,10 @@ More information can be found here: https://fontawesome.com/license/free.
 The Godot logo icon is from the Godot Press Kit and uses the CC 4.0 license.
 More information can be found here: https://godotengine.org/press.
 
+The Web Assembly logo was taken from the carlosbaraza/web-assembly-logo
+repo on Github and uses the CC0-1.0 license.
+More information can be found here https://github.com/carlosbaraza/web-assembly-logo.
+
 The TailwindCSS and C++ logo icons are from BoxIcons and use the MIT license.
 More information can be found here: https://boxicons.com/usage#license.
 
@@ -13,9 +17,22 @@ SvelteJS uses the MIT License.
 More information can be found here https://github.com/sveltejs/branding
 and here https://github.com/sveltejs/svelte.
 
+The V-lang logo was taken from the vlang-v-logo repo on Github and edited by me.
+V-lang uses the MIT License.
+More information can be found here https://github.com/vlang/v-logo.
+
 The Bash logo was taken from Wikimedia Commons under the FAL License.
 More information can be found here https://commons.wikimedia.org/wiki/File:Bash_Logo_black_and_white_icon_only.svg
 and here https://github.com/odb/official-bash-logo/blob/master/assets/LICENSE.
 
 The .NET logo was taken from the dotnet/brand repo on GitHub and edited by me.
 More information can be found here: https://github.com/dotnet/brand#license.
+
+The Lua logo was taken from Wikimedia Commons.
+More information can be found here https://commons.wikimedia.org/wiki/File:Lua-Logo.svg.
+
+The Kotlin logo was taken from kotlinlang.org.
+More information can be found here https://kotlinlang.org/docs/kotlin-brand-assets.html#kotlin-logo.
+
+The TensorFlow logo was taken from the TensorFlow brand guidelines.
+More information can be found here https://www.tensorflow.org/extras/tensorflow_brand_guidelines.pdf.
