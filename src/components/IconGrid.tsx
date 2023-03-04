@@ -25,13 +25,17 @@ import CppIcon from "./icons/CppIcon";
 import DatabaseIcon from "./icons/DatabaseIcon";
 import JavaIcon from "./icons/JavaIcon";
 
+import VIcon from "./icons/VIcon";
 import KotlinIcon from "./icons/KotlinIcon";
+import LuaIcon from "./icons/LuaIcon";
+import WasmIcon from "./icons/WasmIcon";
+import TensorFlowIcon from "./icons/TensorFlowIcon";
 
 function IconGrid() {
 	return (
 		<span className="card-body p-5">
 			<h1 className="panelHeading">What I can do</h1>
-			<h2 className="prose-xl">Most Knowledgeable</h2>
+			<h2 className="prose-xl">Most knowledgeable</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<JsIcon />
 				<VueIcon />
@@ -66,8 +70,11 @@ function IconGrid() {
 			</div>
 			<h2 className="prose-xl">Don&apos;t know, but want to</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
+				<VIcon />
 				<KotlinIcon />
-				{/* V, Kotlin, Lua, Tensorflow, WASM */}
+				<LuaIcon />
+				<WasmIcon />
+				<TensorFlowIcon />
 			</div>
 		</span>
 	);
