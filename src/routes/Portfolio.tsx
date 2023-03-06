@@ -2,7 +2,7 @@ import React from "react";
 import PortfolioItem from "../components/PortfolioItem";
 
 function Portfolio() {
-	const websiteInfo = ["React", "TypeScript"];
+	const websiteInfo = ["React", "TypeScript", "Tailwind CSS", "DaisyUI"];
 	const thisWebsiteMD =
 		"The site you're reading right now was made with React and TypeScript! " +
 		"While I could have used a website maker (which I have used for resumes in the past), making one from scratch sounded more interesting and more fun.";
