@@ -82,6 +82,4 @@ function IconGrid() {
 	);
 }
 
-// Text items are placeholder
-
 export default IconGrid;
