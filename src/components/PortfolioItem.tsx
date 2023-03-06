@@ -33,7 +33,7 @@ function PortfolioItem({
 		<div className="panel">
 			<div className="card-body p-5">
 				{heading !== "" && <h1>{heading}</h1>}
-				<div className="flex flex-row gap-2">
+				<div className="flex flex-wrap gap-2">
 					{badges}
 					{github !== "" && <GitHubIcon link={github} />}
 					{gitlab !== "" && <GitLabIcon link={gitlab} />}
