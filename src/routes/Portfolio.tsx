@@ -34,6 +34,8 @@ function Portfolio() {
 				heading="This website"
 				info={websiteInfo}
 				text={thisWebsiteMD}
+				github="https://github.com/njshockey/njshockey-resume"
+				gitlab="https://www.youtube.com/"
 			/>
 			<PortfolioItem
 				heading="All Blue"
