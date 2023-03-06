@@ -26,7 +26,8 @@ function Portfolio() {
 		"A key generation library for Rust. " +
 		"It's nothing fancy but it can create randomly generated keys, v4 uuids, and timestamps. " +
 		"This is useful for file generation and database id's. " +
-		"Keysmith is available on crates.io and I've found myself using it in other Rust projects.";
+		"Keysmith is available on [crates.io](https://crates.io/crates/keysmith) " +
+		"and I've found myself using it in other Rust projects.";
 
 	return (
 		<div className="panelContainer">
@@ -41,11 +42,15 @@ function Portfolio() {
 				heading="All Blue"
 				info={allBlueInfo}
 				text={allBlueMD}
+				github="https://github.com/njshockey/all-blue-theme"
+				gitlab="https://gitlab.com/njshockey/all-blue-theme"
 			/>
 			<PortfolioItem
 				heading="Keysmith"
 				info={keysmithInfo}
 				text={keysmithMD}
+				github="https://github.com/njshockey/keysmith-rs"
+				gitlab="https://gitlab.com/njshockey/keysmith-rs"
 			/>
 		</div>
 	);
