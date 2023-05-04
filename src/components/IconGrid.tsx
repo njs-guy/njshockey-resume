@@ -48,6 +48,7 @@ function IconGrid() {
 			</div>
 			<h2 className="prose-xl">Well versed</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
+				<SvelteIcon />
 				<LinuxIcon />
 				<ReactIcon />
 				<DotNetIcon />
@@ -57,7 +58,6 @@ function IconGrid() {
 			</div>
 			<h2 className="prose-xl">Pretty familiar</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<SvelteIcon />
 				<BootstrapIcon />
 				<GodotIcon />
 				<UnityIcon />
@@ -66,15 +66,15 @@ function IconGrid() {
 			<h2 className="prose-xl">Got the basics</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<CppIcon />
+				<KotlinIcon />
 				<JavaIcon />
 				<DatabaseIcon />
 			</div>
 			<h2 className="prose-xl">Don&apos;t know, but want to</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<VIcon />
-				<KotlinIcon />
 				<LuaIcon />
 				<ZigIcon />
+				<VIcon />
 				<WasmIcon />
 				<TensorFlowIcon />
 			</div>
