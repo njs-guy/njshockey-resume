@@ -12,12 +12,12 @@ module.exports = {
 				light: {
 					...["[data-theme=light]"],
 					"fontFamily": fontFam,
-					"base-100": "#d4d4d4",
-					"base-200": "#e5e5e5",
-					"base-300": "#f5f5f5",
-					"base-content": "#000000",
+					"base-100": "#d8dee9",
+					"base-200": "#e5e9f0",
+					"base-300": "#eceff4",
+					"base-content": "#2e3440",
 					"primary": primary,
-					"secondary": "#000",
+					"secondary": "#5e81ac",
 					"--btn-text-case": "none",
 				},
 				dark: {
