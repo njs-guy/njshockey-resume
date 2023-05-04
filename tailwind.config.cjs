@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const fontFam = "Roboto, Arial, Helvetica, sans"; // Font family
-const primary = "#2563eb"; // The primary color
+const primary = "#5e81ac"; // The primary color
 
 module.exports = {
 	content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
@@ -23,12 +23,12 @@ module.exports = {
 				dark: {
 					...["[data-theme=dark]"],
 					"fontFamily": fontFam,
-					"base-100": "#171717",
-					"base-200": "#262626",
-					"base-300": "#404040",
-					"base-content": "#e4e4e7",
+					"base-100": "#2E3440",
+					"base-200": "#3b4252",
+					"base-300": "#434c5e",
+					"base-content": "#d8dee9",
 					"primary": primary,
-					"secondary": "#fff",
+					"secondary": "#88c0d0",
 					"--btn-text-case": "none",
 				},
 			},
