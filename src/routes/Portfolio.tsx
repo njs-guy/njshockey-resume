@@ -5,8 +5,8 @@ function Portfolio() {
 	const websiteInfo = ["React", "TypeScript", "Tailwind CSS", "DaisyUI"];
 	const thisWebsiteMD =
 		"The site you're reading right now was made with React and TypeScript! " +
-		"While I could have used a website maker (which I have used for resumes in the past), making one from scratch sounded more interesting and more fun. " +
-		"My previous resume site used vanilla HTML, CSS, and JavaScript. " +
+		"While I could have used a website maker (which I have used for résumés in the past), making one from scratch sounded more interesting and more fun. " +
+		"My previous résumé site used vanilla HTML, CSS, and JavaScript. " +
 		"While it was easy to set up, it was hard to maintain. " +
 		"Adding new information and keeping consistency " +
 		"required me to modify more of the site than I'd like. " +
@@ -36,11 +36,11 @@ function Portfolio() {
 		"I originally made this because I was curious how VS Code themes worked, " +
 		"but I actually ended up making a coding theme that I enjoy using. " +
 		"In fact, I used it to edit this page since the string color is " +
-		"easier on the eyes than most coding themes I used. " +
+		"easier on the eyes than most coding themes I've used. " +
 		"While it's not doing anything fancy under the hood, " +
 		"All Blue's data is pretty well organized. " +
 		"If I ever feel like making another VS Code theme, " +
-		"it should be pretty easy to fork it and swap around colors " +
+		"it should be pretty easy to fork it and swap around colors, " +
 		"which would save a ton of time. " +
 		"Check out the GitHub repo for more screenshots!";
 
