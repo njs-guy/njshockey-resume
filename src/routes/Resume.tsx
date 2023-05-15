@@ -7,7 +7,7 @@ function Resume() {
 	const techSkillsMD =
 		"## Languages" +
 		newLine +
-		"JavaScript/TypeScript, Python, Rust, HTML, CSS, C#, C/C++" +
+		"JavaScript/TypeScript, Python, Rust, HTML, CSS, C#, C/C++, Java, Kotlin" +
 		newLine +
 		"## Frameworks" +
 		newLine +
@@ -15,7 +15,7 @@ function Resume() {
 		newLine +
 		"## Databases" +
 		newLine +
-		"SQLite, MySQL" +
+		"SQLite, MySQL, PostgresQL" +
 		newLine +
 		"## Tools" +
 		newLine +
