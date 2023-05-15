@@ -52,7 +52,7 @@ function Portfolio() {
 		"Keysmith is available on [crates.io](https://crates.io/crates/keysmith) " +
 		"and I've found myself using it in other Rust projects.";
 
-	// TODO: Align the source links better.
+	// TODO: Add actual GitLab link to website
 
 	return (
 		<div className="panelContainer">

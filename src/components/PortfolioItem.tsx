@@ -31,13 +31,15 @@ function PortfolioItem({
 
 	return (
 		<div className="panel">
-			<div className="card-body p-5">
-				{heading !== "" && <h1>{heading}</h1>}
-				<div className="flex flex-wrap gap-2">
-					{badges}
-					{github !== "" && <GitHubIcon link={github} />}
-					{gitlab !== "" && <GitLabIcon link={gitlab} />}
+			<div className="card-body p-5 ">
+				<div className="flex flex-row items-center ">
+					{heading !== "" && <h1 className="flex-auto">{heading}</h1>}
+					<div className="flex flex-row gap-2">
+						{github !== "" && <GitHubIcon link={github} />}
+						{gitlab !== "" && <GitLabIcon link={gitlab} />}
+					</div>
 				</div>
+				<div className="flex flex-wrap gap-2">{badges}</div>
 				<MarkdownText text={text} />
 			</div>
 		</div>

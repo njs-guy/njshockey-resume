@@ -20,7 +20,7 @@ function App() {
 		<main>
 			<div className="m-4">
 				<div className="App panelContainer max-w-4xl">
-					<div className="flex-row grid grid-cols-2">
+					<div className="grid grid-cols-2">
 						<NavBar />
 						<ThemeSwitcher />
 					</div>
