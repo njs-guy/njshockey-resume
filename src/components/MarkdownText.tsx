@@ -11,20 +11,16 @@ function MarkdownText({ text }: MdTxtProps) {
 	}
 
 	function h2HTML(props: any) {
-		return <h2 className="prose-xl font-bold">{props.children}</h2>;
+		return <h2>{props.children}</h2>;
 	}
 
 	function pHTML(props: any) {
-		return (
-			<p className="prose text-base-content max-w-none">
-				{props.children}
-			</p>
-		);
+		return <p className="text-base-content max-w-none">{props.children}</p>;
 	}
 
 	function ulHTML(props: any) {
 		return (
-			<ul className="prose text-base-content max-w-none list-disc list-inside">
+			<ul className="text-base-content max-w-none list-disc list-inside">
 				{props.children}
 			</ul>
 		);
