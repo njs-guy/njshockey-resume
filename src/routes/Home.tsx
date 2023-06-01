@@ -38,8 +38,8 @@ function Home() {
 		<span>
 			<div className="panelContainer">
 				<Panel
-					img="https://via.placeholder.com/600x800"
-					imgClass="panelImg"
+					// img="https://via.placeholder.com/600x800"
+					// imgClass="panelImg"
 					text={greetingText}
 				/>
 				<Panel

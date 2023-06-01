@@ -52,6 +52,18 @@ function Portfolio() {
 		"Keysmith is available on [crates.io](https://crates.io/crates/keysmith) " +
 		"and I've found myself using it in other Rust projects.";
 
+	const gmrInfo = ["Vue", "TypeScript", "Bootstrap"];
+	const gmrMD =
+		"This is a Markdown reader and editor that I mainly made to learn a few new skills. Front-end libraries are extremely popular, so I started with Vue since it kept gaining popularity and has a lower learning curve than React from what I heard at the time. Not to mention that Vue is just really good in general. Bootstrap is also a good skill to have and lets you spend less time worrying about the look of sites, and more time actually developing them. I also decided to use Markdown-it for the Markdown parsing as a way to learn how to integrate external libraries with your own code. I made this a while ago, but it was still a nice stepping stone toward more complicated projects. I could definitely improve on this if I wanted to, but I learned what I wanted to from it, so I decided to move on after it was finished.";
+
+	const rngInfo = ["JavaScript", "HTML", "CSS"];
+	const rngMD =
+		"This is a random number generator that I made as my first project after learning JavaScript. It's not something up to my own standards nowadays but it's a bit surprising in hindsight how much I did without any frontend or CSS libraries.";
+
+	const pcInfo = ["Ryzen 2600x", "RX 580", "32GB DDR4 RAM"];
+	const pcMD =
+		"While I mostly focus on software, I can also work with hardware pretty well. Overall, I’m really happy with this build. It's been a few years, so I could use a better GPU, but it runs most games I play really well. Even at 1440p. I also dual-boot Windows 10 and Fedora Linux.";
+
 	// TODO: Add actual GitLab link to website
 
 	return (
@@ -76,6 +88,25 @@ function Portfolio() {
 				text={keysmithMD}
 				github="https://github.com/njshockey/keysmith-rs"
 				gitlab="https://gitlab.com/njshockey/keysmith-rs"
+			/>
+			<PortfolioItem
+				heading="Generic Markdown Reader"
+				info={gmrInfo}
+				text={gmrMD}
+				github="https://github.com/njshockey/generic-markdown-reader"
+				gitlab="https://gitlab.com/njshockey/generic-markdown-reader"
+			/>
+			<PortfolioItem
+				heading="RNG Machine"
+				info={rngInfo}
+				text={rngMD}
+				github="https://github.com/njshockey/RNG-Machine"
+				gitlab="https://gitlab.com/njshockey/RNG-Machine"
+			/>
+			<PortfolioItem
+				heading="Built a custom PC"
+				info={pcInfo}
+				text={pcMD}
 			/>
 		</div>
 	);

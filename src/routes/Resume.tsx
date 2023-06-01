@@ -23,7 +23,11 @@ function Resume() {
 		newLine +
 		"## Other skills" +
 		newLine +
-		"Windows, Linux, Microsoft Office, Godot/GDScript, Unity, Photoshop, Affinity Photo, DaVinci Resolve";
+		"Windows, Linux, Microsoft Office, Godot/GDScript, Unity, Photoshop, Affinity Photo, DaVinci Resolve" +
+		newLine +
+		"## Favorite editor themes" +
+		newLine +
+		"OneDark, Catppuccin, Tokyo Night, Nord, SynthWave '84";
 
 	const softSkillsMD =
 		"- Savvy in PC building and troubleshooting\n" +
