@@ -22,7 +22,7 @@ function GitLabIcon({ link = "", footer = false }: GitLabProps) {
 				rel="noreferrer"
 			>
 				<svg
-					className="h-8"
+					className="iconSm"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 512 512"
 				>

@@ -65,6 +65,10 @@ p > a:visited {
 	@apply h-16 fill-base-content;
 }
 
+.iconSm {
+	@apply h-8 fill-base-content;
+}
+
 .swapIcon {
 	@apply h-8 fill-base-content;
 }
