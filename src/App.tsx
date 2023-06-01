@@ -10,6 +10,7 @@ import Resume from "./routes/Resume";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 
 import { loadConfig } from "./modules/changeTheme";
+import Footer from "./components/Footer";
 
 function App() {
 	useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
 							element={<PageNotFound />}
 						/>
 					</Routes>
+					<Footer />
 				</div>
 			</div>
 		</main>
