@@ -12,7 +12,7 @@ function TensorFlowIcon() {
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 134.91 150.98"
 			>
-				<title>TensorFlow</title>
+				<title>TensorFlow/PyTorch/Deep Learning</title>
 				<defs id="defs10">
 					<clipPath id="clip-path">
 						<polygon

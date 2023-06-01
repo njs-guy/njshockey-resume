@@ -39,3 +39,6 @@ More information can be found here https://www.tensorflow.org/extras/tensorflow_
 
 The Zig logo was taken from the ziglang/logo repo on Github.
 More information can be found here https://github.com/ziglang/logo.
+
+The Flutter logo was taken from the Flutter brand guidelines.
+More information can be found here https://flutter.dev/brand.

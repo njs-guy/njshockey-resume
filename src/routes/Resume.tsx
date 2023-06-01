@@ -7,11 +7,11 @@ function Resume() {
 	const techSkillsMD =
 		"## Languages" +
 		newLine +
-		"JavaScript/TypeScript, Python, Rust, HTML, CSS, C#, C/C++, Java, Kotlin" +
+		"JavaScript/TypeScript, Python, Rust, HTML, CSS, C#, C/C++, Java, Kotlin, Dart" +
 		newLine +
 		"## Frameworks" +
 		newLine +
-		"Vue, React, Svelte, TailwindCSS, Bootstrap, Django, ASP.NET" +
+		"Vue, React, Svelte, TailwindCSS, Bootstrap, Django, Spring Boot, Flutter" +
 		newLine +
 		"## Databases" +
 		newLine +
@@ -23,7 +23,7 @@ function Resume() {
 		newLine +
 		"## Other skills" +
 		newLine +
-		"Windows, Linux, Microsoft Office, Godot, Unity, Photoshop, Affinity Photo, DaVinci Resolve";
+		"Windows, Linux, Microsoft Office, Godot/GDScript, Unity, Photoshop, Affinity Photo, DaVinci Resolve";
 
 	const softSkillsMD =
 		"- Savvy in PC building and troubleshooting\n" +

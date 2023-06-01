@@ -31,6 +31,7 @@ import LuaIcon from "./icons/LuaIcon";
 import ZigIcon from "./icons/ZigIcon";
 import WasmIcon from "./icons/WasmIcon";
 import TensorFlowIcon from "./icons/TensorFlowIcon";
+import FlutterIcon from "./icons/FlutterIcon";
 
 function IconGrid() {
 	return (
@@ -68,6 +69,7 @@ function IconGrid() {
 				<CppIcon />
 				<KotlinIcon />
 				<JavaIcon />
+				<FlutterIcon />
 				<DatabaseIcon />
 			</div>
 			<h2 className="prose-xl">Don&apos;t know, but want to</h2>
