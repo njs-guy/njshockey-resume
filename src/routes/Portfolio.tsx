@@ -73,7 +73,7 @@ function Portfolio() {
 				info={websiteInfo}
 				text={thisWebsiteMD}
 				github="https://github.com/njshockey/njshockey-resume"
-				gitlab="https://www.youtube.com/"
+				gitlab="https://gitlab.com/njshockey/njshockey-resume"
 			/>
 			<PortfolioItem
 				heading="All Blue"
