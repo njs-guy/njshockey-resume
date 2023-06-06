@@ -2,8 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* inter-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/inter-v12-latin-regular.woff2") format("woff2");
+}
+
+/* inter-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/inter-v12-latin-700.woff2") format("woff2");
+}
+
+/* montserrat-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/montserrat-v25-latin-regular.woff2") format("woff2");
+}
+
+/* montserrat-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/montserrat-v25-latin-700.woff2") format("woff2");
+}
+
 body {
-	font-family: Inter, Arial, Helvetica, sans;
+	font-family: "Inter", Arial, Helvetica, sans;
 	font-weight: 400;
 	font-size: 16px;
 	text-rendering: optimizeLegibility;
@@ -17,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Montserrat, Arial, Helvetica, sans;
+	font-family: "Montserrat", Arial, Helvetica, sans;
 	font-weight: 700;
 }
 

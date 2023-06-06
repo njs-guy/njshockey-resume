@@ -5,6 +5,8 @@ import GitHubIcon from "./icons/GitHubIcon";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import EmailIcon from "./icons/EmailIcon";
 
+// BUG: Footer is preventing the page from loading on Fire Fox. Works in Chrome.
+
 function Footer() {
 	return (
 		<div className="flex flex-row gap-2 justify-center">

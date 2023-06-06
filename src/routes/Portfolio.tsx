@@ -64,8 +64,6 @@ function Portfolio() {
 	const pcMD =
 		"While I mostly focus on software, I can also work with hardware pretty well. Overall, I’m really happy with this build. It's been a few years, so I could use a better GPU, but it runs most games I play really well. Even at 1440p. I also dual-boot Windows 10 and Fedora Linux.";
 
-	// TODO: Add actual GitLab link to website
-
 	return (
 		<div className="panelContainer">
 			<PortfolioItem
