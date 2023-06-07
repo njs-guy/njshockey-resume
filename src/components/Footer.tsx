@@ -5,7 +5,8 @@ import GitHubIcon from "./icons/GitHubIcon";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import EmailIcon from "./icons/EmailIcon";
 
-// BUG: Footer is preventing the page from loading on Fire Fox. Works in Chrome.
+// Footer does not load on FireFox in debug mode if an ad blocker is enabled.
+// Disabling the ad blocker fixes this. Still works after site is built.
 
 function Footer() {
 	return (
