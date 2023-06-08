@@ -12,6 +12,8 @@ import ThemeSwitcher from "./components/ThemeSwitcher";
 import { loadConfig } from "./modules/changeTheme";
 import Footer from "./components/Footer";
 
+export const rootPath = "/njshockey-resume";
+
 function App() {
 	useEffect(() => {
 		loadConfig();
@@ -27,15 +29,15 @@ function App() {
 					</div>
 					<Routes>
 						<Route
-							path="/"
+							path={rootPath}
 							element={<Home />}
 						/>
 						<Route
-							path="/portfolio"
+							path={rootPath + "/portfolio"}
 							element={<Portfolio />}
 						/>
 						<Route
-							path="/resume"
+							path={rootPath + "/resume"}
 							element={<Resume />}
 						/>
 						{/* No match or 404 error */}
