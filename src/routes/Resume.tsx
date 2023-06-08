@@ -11,11 +11,11 @@ function Resume() {
 		newLine +
 		"## Frameworks" +
 		newLine +
-		"Vue, React, Svelte, TailwindCSS, Bootstrap, Django, Spring Boot, Flutter" +
+		"Vue, React, Svelte, TailwindCSS, Bootstrap, Django, Spring Boot, ASP.NET, Flutter" +
 		newLine +
 		"## Databases" +
 		newLine +
-		"SQLite, MySQL, PostgresQL" +
+		"SQLite, PostgresQL, MySQL" +
 		newLine +
 		"## Tools" +
 		newLine +
