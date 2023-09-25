@@ -42,7 +42,7 @@ function Portfolio() {
 		"If I ever feel like making another VS Code theme, " +
 		"it should be pretty easy to fork it and swap around colors, " +
 		"which would save a ton of time. " +
-		"Check out the GitHub repo for more screenshots!";
+		"Check out the GitHub repo for screenshots!";
 
 	const keysmithInfo = ["Rust"];
 	const keysmithMD =

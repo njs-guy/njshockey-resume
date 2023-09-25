@@ -23,6 +23,8 @@ import BashIcon from "./icons/BashIcon";
 
 import CppIcon from "./icons/CppIcon";
 import JavaIcon from "./icons/JavaIcon";
+import FlutterIcon from "./icons/FlutterIcon";
+import GoIcon from "./icons/GoIcon";
 import DatabaseIcon from "./icons/DatabaseIcon";
 
 import VIcon from "./icons/VIcon";
@@ -31,7 +33,6 @@ import LuaIcon from "./icons/LuaIcon";
 import ZigIcon from "./icons/ZigIcon";
 import WasmIcon from "./icons/WasmIcon";
 import TensorFlowIcon from "./icons/TensorFlowIcon";
-import FlutterIcon from "./icons/FlutterIcon";
 
 function IconGrid() {
 	return (
@@ -40,16 +41,16 @@ function IconGrid() {
 			<h2 className="prose-xl">Most knowledgeable</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
 				<JsIcon />
-				<VueIcon />
+				<SvelteIcon />
 				<HtmlIcon />
 				<CssIcon />
 				<RustIcon />
+				<VueIcon />
 				<PyIcon />
 				<WindowsIcon />
 			</div>
 			<h2 className="prose-xl">Well versed</h2>
 			<div className="flex flex-row gap-4 flex-wrap">
-				<SvelteIcon />
 				<LinuxIcon />
 				<ReactIcon />
 				<DotNetIcon />
@@ -70,6 +71,7 @@ function IconGrid() {
 				<KotlinIcon />
 				<JavaIcon />
 				<FlutterIcon />
+				<GoIcon />
 				<DatabaseIcon />
 			</div>
 			<h2 className="prose-xl">Don&apos;t know, but want to</h2>
