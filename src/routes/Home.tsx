@@ -12,39 +12,30 @@ function Home() {
 
 	const greetingText =
 		"Hello! I'm Nick Shockey. " +
-		"I'm an ambitious and highly motivated recent graduate " +
-		"who is eager to leverage my academic achievements and passion for learning " +
-		"to contribute to a dynamic and fast-paced professional environment. " +
-		"With a natural aptitude for acquiring new skills and a proven track record of academic excellence, " +
-		"I'm confident in my ability to quickly adapt to new challenges and make meaningful contributions to any team. " +
-		"All while being proficient in multiple programming languages and frameworks. " +
-		"This e-portfolio will tell you about my professional goals, skills, and experience.";
-
-	const proGoalsMd =
-		"Driven by my ultimate goal of becoming a software developer, " +
-		"I recognized the need to improve my technical skills beyond what I learned in school. " +
-		"To achieve this, I proactively pursued online learning opportunities, " +
-		"where I gained proficiency in a range of programming languages and tools " +
-		"such as Python, HTML, CSS, JavaScript, Rust, and Git. " +
-		"In order to solidify my knowledge, I committed to daily practice " +
-		"and dedicated myself to creating open source projects that showcased my abilities.\n\n" +
-		"As a result of my persistence and dedication, " +
-		"I have become well-versed in the latest industry trends and tools, " +
-		"and possess the ability to quickly adapt to new technologies. " +
-		"I believe that my passion for learning and strong work ethic " +
-		"make me an ideal candidate for any software development role.";
+		"I am a recent graduate with a Bachelor of Information Technology with a minor in Software Development from Kent State University. " +
+		"After graduating, I felt that I didn't have enough knowledge to achieve my goal of becoming a software developer, so I learned a lot in my own time. " +
+		"Mainly Git, JavaScript, TypeScript, Python, Vue, Svelte, React, Rust, Java, and Kotlin. " +
+		"It took a bit of time and lots of self-improvement, but I feel I'm at a point where I can comfortably use most major programming languages, " +
+		"or at least learn how to fill in the gaps.\n\n" +
+		"I am a very quick learner and can adapt to new tools and workflows easily. " +
+		"Learning new information takes time, of course, but I can get to that point much quicker than most. " +
+		"Along with that, I can use many different languages and have a good foundation of programming in general. " +
+		"At the end of the day, instead of thinking “how can I do this with X language” it's easier " +
+		"for me to think of the higher-level logic that's needed to solve the problem.\n\n" +
+		"I like to solve problems, and software development is one way to do that. " +
+		"People needed an easy way to instantly communicate with each other, so email was made. " +
+		"The general public needed an easy way to use that protocol, so Google made Gmail, Microsoft made Outlook, etc. " +
+		"This kind of logic can apply to every step of the process that led to me publishing this site. " +
+		"You need a way to reuse HTML code, you need a way to export that code into a format the browser will recognize, " +
+		"you need a way to store all of that information on a server and host it at a URL. " +
+		"Ultimately, software development is one gigantic puzzle that you try to solve to make everyone's lives easier.";
 
 	return (
 		<span>
 			<div className="panelContainer">
 				<Panel
-					// img="https://via.placeholder.com/600x800"
-					// imgClass="panelImg"
+					heading="Who am I?"
 					text={greetingText}
-				/>
-				<Panel
-					heading="Professional Goals"
-					text={proGoalsMd}
 				/>
 				<div className="panel">
 					<IconGrid />
