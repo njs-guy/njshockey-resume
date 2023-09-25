@@ -42,10 +42,10 @@ function Resume() {
 	const educationMD =
 		"## Bachelors in IT\n" +
 		"### Kent State University • GPA 3.7/4.0\n" +
-		"- Minored in Application Development\n" +
+		"- Minored in Software Development\n" +
 		"- Relevant courses: Advanced C++ Programming, Advanced C# Programming, Mobile Application Programming\n" +
-		"- Made the Dean’s List just about every semester and made Magna Cum Laude.\n" +
-		"- Hundreds of hours of online learning and practice outside of my school’s curriculum.\n" +
+		"- Made the Dean's List just about every semester and made Magna Cum Laude.\n" +
+		"- Hundreds of hours of online learning and practice outside of my school's curriculum.\n" +
 		"## Trumbull Career and Technical Center\n" +
 		"### Certificate in Web Design and Application Development\n" +
 		"## Newton Falls High School\n" +
