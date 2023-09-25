@@ -4,9 +4,11 @@ For the source code of each version, see the [tags page](https://github.com/njsh
 
 ## v1.0.1
 
+- Rewrote home page.
 - Added education section to resume.
 - Changed around the Icon Grid order.
 - Added Go to Icon Grid.
+- Prettied up line spacing.
 - Updated some dependencies.
   - daisyui: 2.50.0 -> 2.52.0
   - tailwindcss: 3.2.4 -> 3.3.3

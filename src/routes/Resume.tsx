@@ -27,7 +27,8 @@ function Resume() {
 		newLine +
 		"## Hobbies" +
 		newLine +
-		"Mainly video games. I've been mostly playing Nintendo and indie games lately. (Play CrossCode and Cassette Beasts.) I also make [YouTube videos](https://www.youtube.com/c/flameguy21) about video games." +
+		"Mainly video games. I've been mostly playing Nintendo and indie games lately. (Play CrossCode and Cassette Beasts.) " +
+		"I also make [YouTube videos](https://www.youtube.com/c/flameguy21) about video games. Usually game reviews." +
 		newLine +
 		"## Favorite editor themes" +
 		newLine +
