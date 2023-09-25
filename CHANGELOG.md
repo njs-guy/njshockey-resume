@@ -6,6 +6,7 @@ For the source code of each version, see the [tags page](https://github.com/njsh
 
 - Rewrote home page.
 - Added education section to resume.
+- Email icon now has a mailto link.
 - Changed around the Icon Grid order.
 - Added Go to Icon Grid.
 - Prettied up line spacing.
