@@ -15,7 +15,11 @@ function MarkdownText({ text }: MdTxtProps) {
 	}
 
 	function pHTML(props: any) {
-		return <p className="text-base-content max-w-none">{props.children}</p>;
+		return (
+			<p className="text-base-content prose mb-2 max-w-none">
+				{props.children}
+			</p>
+		);
 	}
 
 	function ulHTML(props: any) {

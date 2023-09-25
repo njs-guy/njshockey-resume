@@ -7,7 +7,7 @@ function Resume() {
 	const techSkillsMD =
 		"## Languages" +
 		newLine +
-		"JavaScript/TypeScript, Python, Rust, HTML, CSS, C#, C/C++, Java, Kotlin, Dart" +
+		"JavaScript/TypeScript, Python, Rust, HTML, CSS, C#, C/C++, Java, Kotlin, Dart, Go" +
 		newLine +
 		"## Frameworks" +
 		newLine +
@@ -25,9 +25,14 @@ function Resume() {
 		newLine +
 		"Windows, Linux, Microsoft Office, Godot/GDScript, Unity, Photoshop, Affinity Photo, DaVinci Resolve" +
 		newLine +
+		"## Hobbies" +
+		newLine +
+		"Mainly video games. I've been mostly playing Nintendo and indie games lately. (Play CrossCode and Cassette Beasts.) " +
+		"I also make [YouTube videos](https://www.youtube.com/c/flameguy21) about video games. Usually game reviews." +
+		newLine +
 		"## Favorite editor themes" +
 		newLine +
-		"OneDark, Catppuccin, Tokyo Night, Nord, SynthWave '84";
+		"OneDark, Catppuccin, Tokyo Night, Nord, Night Owl, All Blue, SynthWave '84";
 
 	const softSkillsMD =
 		"- Savvy in PC building and troubleshooting\n" +
@@ -35,7 +40,21 @@ function Resume() {
 		"- A dependable, hard-worker\n" +
 		"- Easy and eager to learn new tasks and knowledge\n";
 
+	const educationMD =
+		"## Bachelors in IT\n" +
+		"### Kent State University • GPA 3.7/4.0\n" +
+		"- Minored in Software Development\n" +
+		"- Relevant courses: Advanced C++ Programming, Advanced C# Programming, Mobile Application Programming\n" +
+		"- Made the Dean's List just about every semester and made Magna Cum Laude.\n" +
+		"- Hundreds of hours of online learning and practice outside of my school's curriculum.\n" +
+		"## Trumbull Career and Technical Center\n" +
+		"### Certificate in Web Design and Application Development\n" +
+		"## Newton Falls High School\n" +
+		"### High School Diploma\n";
+
 	const workHistoryMD =
+		"## Various Open Source projects\n" +
+		"Created several projects in my personal time to improve my skills and knowledge. See portfolio.\n" +
 		"## Help Desk Technician\n" +
 		"### Signet Jeweler's • October 2021 to January 2022\n" +
 		"As a contracted Help Desk Technician at Teksystems, " +
@@ -60,16 +79,20 @@ function Resume() {
 	return (
 		<div className="panelContainer">
 			<Panel
-				text={techSkillsMD}
 				heading="Technical skills"
+				text={techSkillsMD}
 			/>
 			<Panel
-				text={softSkillsMD}
 				heading="Soft skills"
+				text={softSkillsMD}
 			/>
 			<Panel
-				text={workHistoryMD}
+				heading="Education"
+				text={educationMD}
+			/>
+			<Panel
 				heading="Work Experience"
+				text={workHistoryMD}
 			/>
 		</div>
 	);
