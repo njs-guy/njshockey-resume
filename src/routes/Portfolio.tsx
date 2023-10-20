@@ -70,36 +70,36 @@ function Portfolio() {
 				heading="This website"
 				info={websiteInfo}
 				text={thisWebsiteMD}
-				github="https://github.com/njshockey/njshockey-resume"
-				gitlab="https://gitlab.com/njshockey/njshockey-resume"
+				github="https://github.com/njs-guy/njshockey-resume"
+				gitlab="https://gitlab.com/njs-guy/njshockey-resume"
 			/>
 			<PortfolioItem
 				heading="All Blue"
 				info={allBlueInfo}
 				text={allBlueMD}
-				github="https://github.com/njshockey/all-blue-theme"
-				gitlab="https://gitlab.com/njshockey/all-blue-theme"
+				github="https://github.com/njs-guy/all-blue-theme"
+				gitlab="https://gitlab.com/njs-guy/all-blue-theme"
 			/>
 			<PortfolioItem
 				heading="Keysmith"
 				info={keysmithInfo}
 				text={keysmithMD}
-				github="https://github.com/njshockey/keysmith-rs"
-				gitlab="https://gitlab.com/njshockey/keysmith-rs"
+				github="https://github.com/njs-guy/keysmith-rs"
+				gitlab="https://gitlab.com/njs-guy/keysmith-rs"
 			/>
 			<PortfolioItem
 				heading="Generic Markdown Reader"
 				info={gmrInfo}
 				text={gmrMD}
-				github="https://github.com/njshockey/generic-markdown-reader"
-				gitlab="https://gitlab.com/njshockey/generic-markdown-reader"
+				github="https://github.com/njs-guy/generic-markdown-reader"
+				gitlab="https://gitlab.com/njs-guy/generic-markdown-reader"
 			/>
 			<PortfolioItem
 				heading="RNG Machine"
 				info={rngInfo}
 				text={rngMD}
-				github="https://github.com/njshockey/RNG-Machine"
-				gitlab="https://gitlab.com/njshockey/RNG-Machine"
+				github="https://github.com/njs-guy/RNG-Machine"
+				gitlab="https://gitlab.com/njs-guy/RNG-Machine"
 			/>
 			<PortfolioItem
 				heading="Built a custom PC"

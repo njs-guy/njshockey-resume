@@ -1,6 +1,6 @@
 # Changelog
 
-For the source code of each version, see the [tags page](https://github.com/njshockey/njshockey-resume/tags).
+For the source code of each version, see the [tags page](https://github.com/njs-guy/njshockey-resume/tags).
 
 ## v1.0.1
 

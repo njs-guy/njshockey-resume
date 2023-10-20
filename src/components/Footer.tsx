@@ -12,11 +12,11 @@ function Footer() {
 	return (
 		<div className="flex flex-row gap-2 justify-center">
 			<GitHubIcon
-				link="https://github.com/njshockey"
+				link="https://github.com/njs-guy"
 				footer={true}
 			/>
 			<GitLabIcon
-				link="https://gitlab.com/njshockey"
+				link="https://gitlab.com/njs-guy"
 				footer={true}
 			/>
 			<LinkedInIcon />
